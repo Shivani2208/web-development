@@ -1,25 +1,29 @@
 .se1{
     font-size: 1.5rem;
-    background-color: rgb(161, 161, 226);
+    background-color: #ccebd8;
+    text-align: center;
     margin: 0rem;
     padding: 0rem;
 }
 .se2{
     font-size: 2rem;
-    background-color: rgb(211, 152, 152);
+    background-color: rgb(221, 189, 189);
     margin: 0rem;
     padding: 0rem;
+    /* text-align: center; */
 }
 .se3{
     font-size: 2rem;
-    background-color: rgb(221, 201, 223);
+    background-color: #d5cdd6;
     margin: 0rem;
     padding: 0rem;
+    text-align: center;
 }
 .se4{
     font-size: 2rem;
-    background-color: rgb(240, 197, 197);
+    background-color: rgb(228, 198, 178);
     margin: 0rem;
-    padding: 0rem;
+    padding: 0rem,0rem;
     image-orientation: initial;   
+    text-align: center;
 }

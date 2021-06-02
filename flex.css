@@ -1,0 +1,15 @@
+.mainbox{
+    width: 50rem;
+    height: 50rem;
+    background-color: azure;
+}
+.box1{
+    width: 5rem;
+    height: 5rem;
+    background-color: chocolate;
+}
+.box2{
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(141, 218, 192);
+}
