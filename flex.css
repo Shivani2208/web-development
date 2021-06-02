@@ -1,15 +1,113 @@
-.mainbox{
-    width: 50rem;
-    height: 50rem;
-    background-color: azure;
+.container{
+    margin: 1rem;
 }
+.mainbox{
+    width: 20rem;
+    height: 11rem;
+    background-color: rgb(252, 224, 229);
+    justify-content:space-evenly;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
 .box1{
-    width: 5rem;
-    height: 5rem;
-    background-color: chocolate;
+    width: 9rem;
+    height:9rem;
+    background-color: rgb(232, 235, 79);
 }
 .box2{
+    width: 9rem;
+    height: 9rem;
+    background-color: rgb(103, 236, 236);
+}
+.box3{
+    width: 12rem;
+    height:9rem;
+    background-color: rgb(40, 229, 236);
+}
+.box4{
+    width: 6rem;
+    height:9rem;
+    background-color: rgb(40, 229, 236);
+}
+.box5{
+    width: 18rem;
+    height: 9rem;
+    background-color: rgb(231, 168, 168);
+}
+.box6{
+    width: 18rem;
+    height: 3rem;
+    background-color: rgb(247, 236, 91);
+}
+.box7{
+    width: 18rem;
+    height: 3rem;
+    background-color: #fcfbf6;
+    justify-content:space-evenly;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+.box8{
+    width: 18rem;
+    height: 3rem;
+    background-color: rgb(248, 142, 195);
+}
+.box9{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(247, 236, 91);
+}
+.box10{
     width: 5rem;
-    height: 5rem;
-    background-color: rgb(141, 218, 192);
+    height: 9rem;
+    background-color: rgb(248, 239, 113);
+}
+.box11{
+    width: 5rem;
+    height: 9rem;
+    background-color: rgb(255, 255, 249);
+}
+.box12{
+    width: 5rem;
+    height: 9rem;
+    background-color: rgb(113, 239, 248);
+}
+.box13{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(247, 247, 247);
+}
+.box14{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(157, 219, 238);
+}
+.box15{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: red;
+}
+.box16{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(240, 248, 132);
+}
+.box17
+{
+    justify-content:center;
+    display:flex;
+    align-self: center;
+    align-items: flex-end;
+}
+.box18
+{
+    align-self: flex-end;
+}
+.box19
+{
+    align-self:center;
+
 }
