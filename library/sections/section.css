@@ -1,7 +1,6 @@
 .se1{
     font-size: 1.5rem;
     background-color: #ccebd8;
-    text-align: center;
     margin: 0rem;
     padding: 0rem;
 }
@@ -10,7 +9,6 @@
     background-color: rgb(221, 189, 189);
     margin: 0rem;
     padding: 0rem;
-    /* text-align: center; */
 }
 .se3{
     font-size: 2rem;
@@ -26,4 +24,14 @@
     padding: 0rem,0rem;
     image-orientation: initial;   
     text-align: center;
+}
+.aside1{
+    width: 80%;
+    font-style: italic;
+    background-color: rgb(228, 184, 184);
+}
+.aside2{
+    background-color: rgb(189, 150, 211);
+    width: 25%;
+    padding: 0rem;
 }

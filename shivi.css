@@ -13,60 +13,9 @@ body{
     line-height: 1.5;
     color: rgb(66, 64, 64);
 }
-h1,h2,h3,h4{
-    padding: 0px,0px;
-    margin:0px;
-}
-h1{
-    font-size: 4.0rem;
-}
-h2{
-    font-size: 3.5rem;
-}
-h3{
-    font-size: 3.0rem;
-}
-h4{
-    font-size: 2.5rem;
-    
-}
-p{
-    font-size: 1.6rem;
-    word-spacing: 0.6rem;
-    line-height: 1.8rem;
-}
-li{
-    font-size: 1.6rem;
-    word-spacing: 0.6rem;
-    line-height: 1.5rem;
-    margin: 0rem;
-    padding: 0rem;
-}
-.box{
-    margin: 0rem;
-    padding: 0rem;
-    font-size: 2.5rem;
-    font-weight: 400px;
-}
-.navbar{
-    margin: 0rem;
-    padding: 0rem;
-    font-size: 1.7rem;
-    font-weight: 400px;
-}
-.button{
-    margin: 0rem;
-    padding: 0rem;
-    font-size: 1.7rem;
-}
-.list{
-    margin: 0rem;
-    padding: 0rem;
-    font-size: 2.5rem;
-
-}
-.image{
-    margin: 0rem;
-    padding: 0rem;
-    font-size: 1.5rem;
+.head{
+    color: rgb(26, 22, 22);
+    text-align: center; 
+    font-size:30px; 
+    padding-top: 29px;
 }
