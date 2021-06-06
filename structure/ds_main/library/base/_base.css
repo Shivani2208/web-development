@@ -13,22 +13,4 @@ font-family: 'Playfair Display', serif; */
 .bod{
   border: 0.2rem red solid;
 }
-h1,h2,h3,h4{
-  margin: 0;
-  padding: 0;
-}
-.padng{
-  padding: 2rem 0;
-}
-.strng1{
-  font-weight: 700;
-}
-.strng2{
-  font-weight: 600;
-}
-.strng3{
-  font-weight: 500;
-}
-.space{
-  padding: 1.rem 0;
-}
+

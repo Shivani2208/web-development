@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap'); */
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Playfair Display', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@600&display=swap");
 *{
     margin: 0rem;
     padding: 0rem;
@@ -9,7 +10,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: white;
+    background-color: rgb(236, 235, 235);
     line-height: 4rem;
     font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
@@ -35,25 +36,29 @@ a{
     font-weight: 800;
 }
 h1{
-    font-size: 5.1rem;
-    /* font-weight: 500; */
+    font-size: 4.0rem;
 }
 h2{
-    font-size: 3.2rem;
-    font-weight: 200;
+    font-size: 3.5rem;
 }
 h3{
-    font-size: 2.3rem;
-    font-weight: 200;
+    font-size: 2.6rem;
 }
 h4{
-    font-size: 1.8rem;
-    font-weight: 200;
+    font-size: 2rem;
 }
-p{
-    font-size: 1.5rem;
+p,p1{
+    font-size: 1.7rem;
     display: block;
-    line-height: 1.8rem;
+    line-height: 2.3rem;
+    padding: 1rem 0;
+}
+a {
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(34, 32, 32);
+  text-decoration: none;
+  font-weight: 600;
 }
 h1,h2,h3,h4 {
   margin: 0rem;
@@ -69,39 +74,127 @@ li{
     line-height: 2rem;
     padding: 2rem 0;
 }
+.padng{
+  padding: 2rem;
+}
 .tag {
-  font-size: 1.4rem;
-  color: rgb(112, 106, 106);
+  font-size: 1.5rem;
+  color: rgb(83, 81, 81);
   font-weight: 100;
 }
-.card {
-  width: 70%;
-  padding: 1.5rem;
+.emphasis{
+    font-size: 1.7rem;
+    color: rgb(82, 80, 80);
 }
-.card2{
-  width: 50%;
-  text-align: center;
+.strng1{
+  font-weight: 700;
 }
-.cardimg{
-  width:40%;
-  padding: 0rem;
+.strng2{
+  font-weight: 600;
 }
-.cardbutton{
-  background-color: gray;
-  color: whitesmoke;
-  padding: 1.2rem;
-  border: none;
-  border-radius: 1rem;
+.strng3{
+  color: rgb(41, 40, 40);
+  font-weight: 600;
 }
-.cardbutton2{
-  background-color: rgb(17, 16, 16);
-  color: whitesmoke;
-  padding: 0.7rem;
-  border: none;
+.ordered{
+  margin-left:3rem;
+  }
+.unordered{
+  list-style-type: none;
+  margin-left: 1rem;
 }
+.tagbold{
+  color: rgb(41, 40, 40);
+  font-weight: 600;
+} 
+.tagbold1{
+  color: white;
+  font-weight: 600;
+} 
 .para1{
 padding: 1rem;
 }
 .para2 {
   padding: 1.5rem 0;
+}
+.card{
+  width:95%;
+  padding:1.6rem;
+}
+ .card_img img{
+   width: 95%;
+   border-radius: 1%;
+   margin-bottom: 1rem;
+ }
+ .card_btn{
+   background-color:black;
+   color: white;
+   font-size: 16px;
+   padding: 10px 29px;
+   margin: 10px 0px;
+   border-radius: 1rem;
+   border: none;
+ }
+ .card2{
+  width:50%;
+  padding:1.6rem;
+}
+.card3_img img{
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  
+}
+.carderek{
+  width: 40%;
+  border: 0.5rem;
+  border-radius:2%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.newsletter{
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 5.5rem;
+}
+.padding{
+  font-size: 3rem;
+  
+}
+input{
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: large;
+  border-radius: 0.5rem;
+  border: transparent;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.box20{
+  width: 30%;
+  /* height:90%; */
+  background-color: black;
+  flex-wrap: wrap;
+  color: white;
+  align-content: flex-start;
+  align-self: flex-start;
+}
+.box {
+  margin: 1rem;
+}
+/* .flexlay{
+  background-color: white;
+} */
+.mainbox{
+  /* height: 50%; */
+  background-color: black;
+  justify-content:space-evenly;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
 }
