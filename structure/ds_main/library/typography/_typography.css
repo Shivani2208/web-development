@@ -1,54 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@600&display=swap");
-*{
-    margin: 0rem;
-    padding: 0rem;
+
+.nav {
+  font-size: 2rem;
+  line-height: 3;
+  text-align: center;
+  word-spacing: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 2rem 0rem;
+  padding: 0;
 }
-html{
-    font-size: 62.5%;
+
+a {
+  color: black;
+  text-decoration: none;
 }
-body{
-    background-color: rgb(236, 235, 235);
-    line-height: 4rem;
-    font-size: 2rem;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
+.head {
+  text-align: center;
+  font-weight: 200;
+  margin: 2rem 0rem;
+  font-weight: 800;
 }
-.nav{
-    font-size: 2rem;
-    line-height: 3;
-    text-align: center;
-    word-spacing: 1.8rem;
-    font-family: 'Open Sans', sans-serif;
-    margin: 2rem 0rem;
-    padding: 0;
+
+h1 {
+  font-size: 4rem;
 }
-a{
-    color: black;
-    text-decoration: none;
+h2 {
+  font-size: 3.5rem;
 }
-.head{
-    text-align: center;
-    font-weight: 200;
-    margin: 2rem 0rem;
-    font-weight: 800;
+h3 {
+  font-size: 2.6rem;
 }
-h1{
-    font-size: 4.0rem;
+h4 {
+  font-size: 2rem;
 }
-h2{
-    font-size: 3.5rem;
-}
-h3{
-    font-size: 2.6rem;
-}
-h4{
-    font-size: 2rem;
-}
-p,p1{
-    font-size: 1.7rem;
-    display: block;
-    line-height: 2.3rem;
-    padding: 1rem 0;
+
+p,
+.p1 {
+  font-size: 1.7rem;
+  display: block;
+  line-height: 2.3rem;
+  padding: 1rem 0;
 }
 a {
   font-size: 1.8rem;
@@ -57,21 +48,24 @@ a {
   text-decoration: none;
   font-weight: 600;
 }
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0rem;
   padding: 0rem;
   font-family: "Open Sans", sans-serif;
 }
-li{
-    font-size: 1.5rem;
-    display: block;
-    line-height: 1.8rem;
+li {
+  font-size: 1.5rem;
+  display: block;
+  line-height: 1.8rem;
 }
-.list{
-    line-height: 2rem;
-    padding: 2rem 0;
+.list {
+  line-height: 2rem;
+  padding: 2rem 0;
 }
-.padng{
+.padng {
   padding: 2rem;
 }
 .tag {
@@ -84,91 +78,91 @@ li{
   color: rgb(170, 159, 159);
   font-weight: 100;
 }
-.emphasis{
-    font-size: 1.7rem;
-    color: rgb(82, 80, 80);
+.emphasis {
+  font-size: 1.7rem;
+  color: rgb(82, 80, 80);
 }
-.strng1{
+.strng1 {
   font-weight: 700;
 }
-.strng2{
+.strng2 {
   font-weight: 600;
 }
-.strng3{
+.strng3 {
   color: rgb(41, 40, 40);
   font-weight: 600;
 }
-.ordered{
-  margin-left:3rem;
-  }
-.unordered{
+.ordered {
+  margin-left: 3rem;
+}
+.unordered {
   list-style-type: none;
   margin-left: 1rem;
 }
-.tagbold{
+.tagbold {
   color: rgb(41, 40, 40);
   font-weight: 600;
-} 
-.tagbold1{
+}
+.tagbold1 {
   color: white;
   font-weight: 600;
-} 
-.para1{
-padding: 1rem;
+}
+.para1 {
+  padding: 1rem;
 }
 .para2 {
   padding: 1.5rem 0;
 }
-.card{
-  width:95%;
-  padding:1.6rem;
+.card {
+  width: 95%;
+  padding: 1.6rem;
 }
-.card3{
-  width:55%;
-  padding:1.6rem;
+.card3 {
+  width: 55%;
+  padding: 1.6rem;
 }
- .card_img img{
-   width: 95%;
-   border-radius: 1%;
-   margin-bottom: 1rem;
- }
- .card_btn{
-   background-color:black;
-   color: white;
-   font-size: 16px;
-   padding: 10px 29px;
-   margin: 10px 0px;
-   border-radius: 1rem;
-   border: none;
- }
- .card2{
-  width:50%;
-  padding:1.6rem;
+.card_img img {
+  width: 95%;
+  border-radius: 1%;
+  margin-bottom: 1rem;
 }
-.card3_img img{
+.card_btn {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px 29px;
+  margin: 10px 0px;
+  border-radius: 1rem;
+  border: none;
+}
+.card2 {
+  width: 50%;
+  padding: 1.6rem;
+}
+.card3_img img {
   width: 40%;
   height: 40%;
   border-radius: 60%;
   margin-bottom: 1rem;
 }
-.carderek{
+.carderek {
   width: 40%;
   border: 0.5rem;
-  border-radius:2%;
+  border-radius: 2%;
   align-items: center;
   align-content: center;
   text-align: center;
 }
-.newsletter{
+.newsletter {
   background-color: black;
   color: white;
   text-align: center;
   line-height: 5.5rem;
 }
-.padding{
+.padding {
   font-size: 3rem;
 }
-.box20{
+.box20 {
   width: 30%;
   /* height:90%; */
   background-color: black;
@@ -183,13 +177,13 @@ padding: 1rem;
 /* .flexlay{
   background-color: white;
 } */
-.mainbox{
+.mainbox {
   background-color: black;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   display: flex;
   align-self: center;
   align-items: center;
   padding: 1rem;
   margin: 1rem;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
 }

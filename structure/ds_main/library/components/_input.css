@@ -1,11 +1,11 @@
-input{
-    padding: 1rem 0;
-    margin: 1rem 0;
-    font-size: large;
-    border-radius: 0.5rem;
-    border-style:solid;
-    /* flex-wrap: wrap; */
-    width: 50%;
-    border-width: 0.1rem;
-    border-color: black;
-  }
+input {
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: large;
+  border-radius: 0.5rem;
+  border-style: solid;
+  /* flex-wrap: wrap; */
+  width: 50%;
+  border-width: 0.1rem;
+  border-color: black;
+}
