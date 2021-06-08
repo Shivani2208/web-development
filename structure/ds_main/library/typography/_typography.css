@@ -1,8 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@600&display=swap");
+<<<<<<< HEAD
+=======
+
+.nav {
+  font-size: 2rem;
+  line-height: 3;
+  text-align: center;
+  word-spacing: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 2rem 0rem;
+  padding: 0;
+}
+
+>>>>>>> b9f2b01f0cda0dc590f38d08933546ed052c6d71
 a {
   color: black;
   text-decoration: none;
 }
+<<<<<<< HEAD
+=======
+.head {
+  text-align: center;
+  font-weight: 200;
+  margin: 2rem 0rem;
+  font-weight: 800;
+}
+>>>>>>> b9f2b01f0cda0dc590f38d08933546ed052c6d71
 
 h1 {
   font-size: 4rem;
@@ -40,6 +63,7 @@ h4 {
   font-family: "Open Sans", sans-serif;
 }
 li {
+<<<<<<< HEAD
   font-size: 1.5rem;
   display: block;
   line-height: 2.5rem;
@@ -54,3 +78,135 @@ hr{
 placeholder{
 background-color: rgb(119, 117, 115);
 }
+=======
+  font-size: 1.5rem;
+  display: block;
+  line-height: 1.8rem;
+}
+.list {
+  line-height: 2rem;
+  padding: 2rem 0;
+}
+.padng {
+  padding: 2rem;
+}
+.tag {
+  font-size: 1.5rem;
+  color: rgb(83, 81, 81);
+  font-weight: 100;
+}
+.tag1 {
+  font-size: 1.5rem;
+  color: rgb(170, 159, 159);
+  font-weight: 100;
+}
+.emphasis {
+  font-size: 1.7rem;
+  color: rgb(82, 80, 80);
+}
+.strng1 {
+  font-weight: 700;
+}
+.strng2 {
+  font-weight: 600;
+}
+.strng3 {
+  color: rgb(41, 40, 40);
+  font-weight: 600;
+}
+.ordered {
+  margin-left: 3rem;
+}
+.unordered {
+  list-style-type: none;
+  margin-left: 1rem;
+}
+.tagbold {
+  color: rgb(41, 40, 40);
+  font-weight: 600;
+}
+.tagbold1 {
+  color: white;
+  font-weight: 600;
+}
+.para1 {
+  padding: 1rem;
+}
+.para2 {
+  padding: 1.5rem 0;
+}
+.card {
+  width: 95%;
+  padding: 1.6rem;
+}
+.card3 {
+  width: 55%;
+  padding: 1.6rem;
+}
+.card_img img {
+  width: 95%;
+  border-radius: 1%;
+  margin-bottom: 1rem;
+}
+.card_btn {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px 29px;
+  margin: 10px 0px;
+  border-radius: 1rem;
+  border: none;
+}
+.card2 {
+  width: 50%;
+  padding: 1.6rem;
+}
+.card3_img img {
+  width: 40%;
+  height: 40%;
+  border-radius: 60%;
+  margin-bottom: 1rem;
+}
+.carderek {
+  width: 40%;
+  border: 0.5rem;
+  border-radius: 2%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.newsletter {
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 5.5rem;
+}
+.padding {
+  font-size: 3rem;
+}
+.box20 {
+  width: 30%;
+  /* height:90%; */
+  background-color: black;
+  flex-wrap: wrap;
+  color: white;
+  align-content: flex-start;
+  align-self: flex-start;
+}
+.box {
+  margin: 1rem;
+}
+/* .flexlay{
+  background-color: white;
+} */
+.mainbox {
+  background-color: black;
+  justify-content: space-evenly;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+>>>>>>> b9f2b01f0cda0dc590f38d08933546ed052c6d71

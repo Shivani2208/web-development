@@ -4,8 +4,13 @@ input {
   font-size: large;
   border-radius: 0.5rem;
   border-style: solid;
+<<<<<<< HEAD
   flex-wrap: wrap;
   width: 32%;
+=======
+  /* flex-wrap: wrap; */
+  width: 50%;
+>>>>>>> b9f2b01f0cda0dc590f38d08933546ed052c6d71
   border-width: 0.1rem;
   border-color: black;
 }
