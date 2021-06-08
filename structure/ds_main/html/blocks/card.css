@@ -1,0 +1,39 @@
+.card {
+    width: 95%;
+    padding: 1.6rem;
+  }
+  .card3 {
+    width: 55%;
+    padding: 1.6rem;
+  }
+  .card_img img {
+    width: 95%;
+    border-radius: 1%;
+    margin-bottom: 1rem;
+  }
+  .card_btn {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px 29px;
+    margin: 10px 0px;
+    border-radius: 1rem;
+    border: none;
+  }
+  .card2 {
+    width: 50%;
+    padding: 1.6rem;
+  }
+  .card3_img img {
+    width: 50%;
+    border-radius: 60%;
+    margin-bottom: 1rem;
+  }
+  .carderek {
+    width: 40%;
+    border: 0.5rem;
+    border-radius: 2%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
