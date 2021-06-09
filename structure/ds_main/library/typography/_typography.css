@@ -21,7 +21,7 @@ p,
 .p1 {
   font-size: 1.7rem;
   display: block;
-  line-height: 2.3rem;
+  line-height: 2.6rem;
   padding: 1rem 0;
 }
 a {
@@ -38,6 +38,7 @@ h4 {
   margin: 0rem;
   padding: 0rem;
   font-family: "Open Sans", sans-serif;
+  color: rgb(32, 31, 31);
 }
 li {
   font-size: 1.5rem;

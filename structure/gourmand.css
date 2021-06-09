@@ -173,7 +173,7 @@
     margin: 0 auto;
   }
 .cardnew{
-  width: 25%;
+  width: 33%;
   padding: 1rem 0;
 }
 .mainbox1 {
@@ -229,4 +229,15 @@
 .list {
   line-height: 2.7rem;
   padding: 2rem 0;
+}
+.button{
+  background-color: rgb(177, 172, 172);
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: large;
+  border-radius: 0.5rem;
+  border-style: solid;
+  flex-wrap: wrap;
+  width: 32%;
+  border-width: 0.1rem;
 }
