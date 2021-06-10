@@ -76,7 +76,7 @@
     text-align: right;
   }
   .card {
-    width: 95%;
+    width: 100%;
     padding: 1.6rem;
   }
   .card3 {
@@ -120,8 +120,16 @@
   .newsletter {
     background-color: rgb(20, 19, 19);
     color: white;
-    text-align: center;
-    line-height: 5.5rem;
+     text-align: center;
+    /*line-height: 5.5rem;
+    justify-content: space-evenly;
+    display: flex;
+    align-self: center;
+    align-items: center; */
+    padding: 1rem;
+    margin: 1rem;
+  
+
   }
 
   .container {
@@ -132,15 +140,15 @@
     border: 0.2rem red solid;
   }
   input {
-    padding: 1rem 0;
-    margin: 1rem 0;
+    padding: 2rem 0;
+    margin: 2rem 0;
     font-size: large;
     border-radius: 0.5rem;
     border-style: solid;
-    flex-wrap: wrap;
-    width: 32%;
+    width: 25%;
     border-width: 0.1rem;
     border-color: black;
+    background-color: rgb(213, 230, 233);
   }
   .tagbold {
     color: rgb(41, 40, 40);
@@ -173,7 +181,7 @@
     margin: 0 auto;
   }
 .cardnew{
-  width: 33%;
+  width: 25%;
   padding: 1rem 0;
 }
 .mainbox1 {
@@ -193,7 +201,6 @@
   align-items: center;
   padding: 1rem;
   margin: 1rem;
-  flex-wrap: wrap;
   width: max-content;
 }
 .boxnew{
@@ -241,3 +248,22 @@
   width: 32%;
   border-width: 0.1rem;
 }
+.fab{
+  font-size: 2rem;
+}
+.fas{
+  font-size:2rem;
+}
+.bx2_link{
+  margin-bottom: 3rem;
+}
+.bx2_icon{
+  margin: 2.8rem;
+  word-spacing: 2rem;
+}
+.bx2_title{
+  margin-bottom:3rem;
+  margin-top: 1rem;
+  letter-spacing: 0.11rem;
+  font-size: 4.5rem;
+ }

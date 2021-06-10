@@ -38,7 +38,6 @@ h4 {
   margin: 0rem;
   padding: 0rem;
   font-family: "Open Sans", sans-serif;
-  color: rgb(32, 31, 31);
 }
 li {
   font-size: 1.5rem;
@@ -52,6 +51,9 @@ hr{
   color: black;
   margin: 2rem 0;
 }
-placeholder{
+.placeholder{
 background-color: rgb(119, 117, 115);
+}
+input{
+  width: 25%;
 }
