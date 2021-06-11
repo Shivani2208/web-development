@@ -42,6 +42,11 @@ padding: 0;
     width: 80%;
     height:90%;
     background-color: rgb(40, 229, 236);
+    justify-content:space-evenly;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
 }
 .box4{
     width: 20%;
@@ -124,3 +129,50 @@ padding: 0;
     height: 40%;
     background-color: rgb(240, 248, 132);
 }
+.box17{
+    width: 90%;
+    height: 20%;
+    background-color: burlywood;
+}
+.box19{
+    justify-content:space-evenly;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    width: 20%;
+    height:90%;
+    background-color: rgb(40, 229, 236);
+    flex-direction: column;
+}
+.box21{
+    width:45%;
+    height: 50%;
+    background-color: chocolate;
+
+}
+.box22{
+    background-color: cornsilk;
+    width: 95%;
+    height:50%;
+    justify-content:space-evenly;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: row;
+}
+.box23{
+    background-color: cornsilk;
+    width: 95%;
+    height:50%;
+    justify-content:space-evenly;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+
+
+
