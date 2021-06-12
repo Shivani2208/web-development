@@ -7,7 +7,7 @@
         border: 1px solid red;
       }
     .container{
-        margin: 0;
+        margin: 1rem;
         max-width: 120rem !important;
     }
     .mainbox{
@@ -19,6 +19,23 @@
       margin: 0rem;
       flex-wrap: wrap;
       width: 100%;
+    }
+    .mainboxdes{
+      justify-content: space-evenly;
+      display: flex;
+      align-self: center;
+      align-items: center;
+      padding: 0rem;
+      margin: 0rem;
+      flex-wrap: wrap;
+      width: 70%;
+    }
+    .boxdes{
+      width: 25%;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      align-self: flex-start;
+      align-items: flex-start;
     }
     .box {
         margin: 1rem;
@@ -80,12 +97,12 @@
       }
       .tag1 {
         font-size: 1.2rem;
-        color: rgb(83, 81, 81);
+        color: rgb(146, 146, 146);
         font-weight: 600;
         line-height: 2rem;
       }
       .tagbold1 {
-        color: rgb(39, 38, 38);
+        color: rgb(26, 26, 26);
         font-weight: 600;
       }
       .p {
@@ -143,6 +160,17 @@
         border-color: black;
         background-color: rgb(244, 249, 250);
       }
+      .inptl {
+        padding: .5rem 0;
+        margin: .5rem 0;
+        font-size: large;
+        border-radius: 0.5rem;
+        border-style: solid;
+        width: 75%;
+        border-width: 0.1rem;
+        border-color: black;
+        background-color: rgb(244, 249, 250);
+      }
       .button{
         background-color: rgb(177, 172, 172);
         padding: 0.5rem 0;
@@ -156,13 +184,14 @@
         border-width: 0.1rem;
       }
       .box3{
-        width: 65%;
+        width: 70%;
     }
     .box25{
-      width: 95%; 
+      width: 100%; 
       flex-direction: row;
       justify-content:space-evenly;
     display: flex;
+   
   }
     .box17{
       width: 95%;
@@ -186,8 +215,15 @@
 .box19{
   justify-content:space-evenly;
   display: flex;
-  width: 30%;
+  width: 25%;
   flex-direction: column;
+}
+.box29{
+  justify-content:space-evenly;
+  display: flex;
+  width: 35%;
+  padding: 1rem;
+  margin: 1rem;
 }
 .box21{
   width:45%;
@@ -222,8 +258,8 @@
   display: flex;
   align-self: center;
   align-items: center;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 1rem 0;
+  margin: 1rem 0;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -235,13 +271,13 @@
   padding:0;
 }
 .bder{
-  width:100%;
+  width:40%;
   height: 0.2rem;
   background-color: grey;
   position: relative;
 }
 .bder2{
-  width:40%;
+  width:20%;
   height: 0.2rem;
   background-color: black;
   position: absolute; 
@@ -318,3 +354,127 @@ li{
   text-align: center;
   align-items: center;
 }
+.mostview{
+  box-decoration-break: slice;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+}
+.ollist{
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  list-style:disc;
+}
+li {
+  font-size: 1.5rem;
+  display: block;
+  line-height: 2.5rem;
+  padding: 0 2rem;
+  list-style:disc;
+}
+.stylebtn{
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.next{
+  padding: 1rem;
+  text-align: center;
+}
+.fback{
+  background-color: black;
+  padding: 1rem ;
+  margin: 0 1rem;
+}
+
+
+
+.f_outbx{
+  display: flex;
+  padding: 1rem 1rem;
+  background-color: black;
+  margin: 0rem 1rem;
+  max-width: 120rem !important;
+}
+.f_bx1 {
+  width: 33.33%;
+  padding: 0rem 2.4rem;
+  background-color: black;
+  color: #f3f3f3;
+}
+.bx1_title{
+  margin-bottom: 3rem;
+}
+.bx1_p{
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+.bx1_link a{
+  display: block;
+  color: #f3f3f3;
+  font-weight: 500;
+  margin: 1rem;
+}
+.bx1_input{
+  background-color:rgb(250, 246, 246);
+  border-radius: 0.5rem;
+  color:black;
+  text-align:left ;
+  border: none;
+  font-size: 1.2rem;
+}
+.bx1_btn{
+  background-color:rgb(97, 96, 96);
+  border-radius: 0.5rem;
+  color:rgb(226, 219, 219);
+  padding: 0.5rem;
+  text-align:left ;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.f_outbx2{
+  border-style: solid hidden;
+  border-color: rgb(105, 104, 104);
+  background-color: black;
+  text-align: center;
+  padding-top:30px;
+  color: rgb(250, 248, 248);
+}
+.bx2_title{
+ margin-bottom:3rem;
+ margin-top: 1rem;
+ letter-spacing: 0.11rem;
+ font-size: 4.5rem;
+}
+.bx2_link{
+  margin-bottom: 3rem;
+}
+
+.bx2_link a{
+  color: white;
+  text-align: center;
+  margin: 0 1.5rem;
+}
+/*footer's icon */
+.bx2_icon{
+  margin: 2.8rem;
+  word-spacing: 2rem;
+}
+.fab{
+  font-size: 2rem;
+}
+.fas{
+  font-size:2rem;
+}
+/* footer's icon */
+
+.f_bx3{
+  text-align: center;
+  padding: 3rem 0rem;
+  color: white;
+}
+
+
+/* footer ends */

@@ -269,3 +269,19 @@
   letter-spacing: 0.11rem;
   font-size: 4.5rem;
  }
+.mostview{
+  box-decoration-break: slice;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+}
+.ollist{
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+}
+.stylebtn{
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
