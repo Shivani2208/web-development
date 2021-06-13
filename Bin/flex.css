@@ -40,7 +40,6 @@ padding: 0;
 }
 .box3{
     width: 80%;
-    height:90%;
     background-color: rgb(40, 229, 236);
     justify-content:space-evenly;
     display: flex;
