@@ -1,0 +1,190 @@
+/* follow me  */
+.fol_title{
+  border-bottom: 3px solid #ccc;
+  margin: 2rem 2rem;
+}
+.fol_title span{
+  border-bottom: 3px solid #1f0733;
+}
+
+.fol_me {
+  width: 40%;
+  padding: 3rem 0rem;
+  margin: 0rem 4rem;
+}
+
+.fol_icon{
+  margin: 2.2rem;
+  word-spacing: 1rem;
+}
+/* /follow me ends */
+
+/* new recipes */
+.new_box{
+  margin: 1rem;
+  width: 35%;
+}
+.new_box1{
+  width: 35.6%;
+  margin: 1rem;
+}
+.new_row{
+  display: flex;
+}
+.new_img{
+   margin: 2rem;
+}
+.new_title{
+  text-align: center;
+}
+/* new recipe end */
+
+/* categories */
+.cat_dot{
+  letter-spacing: 0.5rem;
+}
+.cate{
+  width: 32%;
+  margin: 2rem;
+}
+.cate_box{
+  margin: 2rem;
+}
+/* categories end */
+
+/* looking for something */
+.look_input{
+  border: 1px solid grey;
+  margin:1.3rem 2rem;
+}
+.look_box{
+  width: 35%;
+}
+/* looking for something ends */
+
+
+/* three card section */
+.flexbox{
+  background-color: rgb(248, 248, 248);
+}
+.outerbox{
+  display: flex;
+}
+
+.box{
+  margin: 1rem;
+}
+.box6 {
+  width: 30%;
+  display: flex;
+  margin: 3rem;
+  flex-direction: column;
+}
+
+.box7 {
+  width: 30%;
+  display: flex;
+  margin: 3rem 0rem;
+  flex-direction: column;
+}
+.box8 {
+  width: 30%;
+  display: flex;
+  margin: 3rem;
+  flex-direction: column;
+} 
+/* three card section */
+
+/* footer*/
+.foot{
+  background-color:black;
+}
+.f_outbx{
+  display: flex;
+  padding: 5.5rem 0rem;
+  background-color: black;
+}
+.f_bx1 {
+  width: 33.33%;
+  padding: 0rem 2.4rem;
+  background-color: black;
+  color: #f3f3f3;
+}
+.bx1_title{
+  margin-bottom: 3rem;
+}
+.bx1_p{
+  margin-top: 2rem;
+}
+.bx1_link a{
+  display: block;
+  color: #f3f3f3;
+  font-weight: 500;
+  margin: 1rem;
+}
+.bx1_input{
+  margin: 2rem 0.2rem;
+  padding: 1.5rem 5rem;
+  background-color:rgb(250, 246, 246);
+  border-radius: 0.5rem;
+  color:black;
+  text-align:left ;
+  border: none;
+  font-size: 1.6rem;
+}
+.bx1_btn{
+  background-color:rgb(97, 96, 96);
+  border-radius: 0.5rem;
+  color:rgb(226, 219, 219);
+  padding: 1.5rem 4rem;
+  text-align:left ;
+  font-size: 1.6rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.f_outbx2{
+  border-style: solid hidden;
+  border-color: rgb(105, 104, 104);
+  background-color: black;
+  text-align: center;
+  padding-top:30px;
+  color: rgb(250, 248, 248);
+}
+.bx2_title{
+ margin-bottom:3rem;
+ margin-top: 1rem;
+ letter-spacing: 0.11rem;
+ font-size: 4.5rem;
+}
+.bx2_link{
+  margin-bottom: 3rem;
+}
+
+.bx2_link a{
+  color: white;
+  text-align: center;
+  margin: 0 1.5rem;
+}
+/*footer's icon */
+.bx2_icon{
+  margin: 2.8rem;
+  word-spacing: 2rem;
+}
+.fab{
+  font-size: 2rem;
+}
+.fas{
+  font-size:2rem;
+}
+/* footer's icon */
+
+.f_bx3{
+  text-align: center;
+  padding: 3rem 0rem;
+}
+.col{
+  color: white;
+}
+
+/* footer ends */

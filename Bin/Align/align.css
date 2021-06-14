@@ -1,6 +1,13 @@
+:root{
+    --base_padding:3rem;
+    --base_padding--spacer: 1.5rem;
+}
 *{
     margin: 0rem;
     padding: 0rem;
+}
+html{
+    font-size: 62.5%;
 }
 .bod {
     border: 1px solid red;
@@ -13,51 +20,31 @@
     background-color: rgb(156, 161, 163);
     justify-content:space-evenly;
     display: flex;
-    align-self: center;
-    align-items: flex-start;
-    padding: 0rem;
-    margin: 0rem;
 }
 .box1{
-    padding: 3rem;
+    padding: var(--base_padding);
     width: 30%;
     background-color: rgb(218, 50, 81);
-    justify-content:space-evenly;
-    display: flex;
-    align-self: flex-start;
-    align-items: center;
-    flex-direction: column;
 }
 .box2{
-    padding: 3rem;
+    padding: var(--base_padding);
     background-color: rgb(197, 223, 235);
-    justify-content:space-evenly;
-    display: flex;
-    align-self: center;
-    align-items: center;
-    flex-direction: column;
     width: 70%;
 }
 .box3{
-    width: 90%;
     background-color: rgb(250, 179, 223);
-    height: 15rem;
+    height: 25rem;
 }
 .box4{
-    width: 90%;
     background-color: rgb(224, 197, 217);
-    height: 10rem;
+    height: 20rem;
 }
 .box5{
-    width: 90%;
     background-color: rgb(194, 159, 181);
-    height: 5rem;
+    height: 15rem;
 }
-.box {
-    margin: 0rem;
-  }
   .spacer{
-      padding: 3rem 0;
+      padding: var(--base_padding--spacer) 0;
   }
 
 
@@ -74,12 +61,11 @@
         flex-direction: column;
       }.box1{
           padding: 1.5rem;
-          align-self: center;
-            width: 70%;
-          
+            width: 100%;
       }
       .box2{
         padding: 1.5rem;
+        width: 100%;
     }
     .box3{
         display: none;

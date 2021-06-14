@@ -1,0 +1,19 @@
+
+/* newsletter */
+
+.newsl_content{
+    width: 100%;
+    background-color: black;
+    color: #e5e2e2;
+    border-radius: 0.9rem;
+    margin:3rem 0rem;
+    padding: 1.5rem 0rem;
+  }
+  .newsl_h2{
+    margin: 1.9rem 4rem;
+  }
+  .newsl_p{
+    margin: 1rem 4rem ;
+  }
+  /* newsletter ends */
+  
