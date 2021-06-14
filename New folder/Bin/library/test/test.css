@@ -1,0 +1,17 @@
+.bod{
+    border: .2rem solid rgb(148, 44, 53);
+}
+.container{
+    max-width: 130rem;
+    margin: auto;
+}
+.card{
+    width: 90rem;
+    height: 90rem;
+}
+.card_img{
+    width: 30%;
+}
+.card_button{
+font-size: 2rem;
+}

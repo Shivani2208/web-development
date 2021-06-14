@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    background-color: rgb(236, 235, 235);
+    line-height: 4rem;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+  }
+  .container {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  

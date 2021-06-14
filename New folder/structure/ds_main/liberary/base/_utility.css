@@ -1,0 +1,68 @@
+
+.bod {
+    border: 2px red solid;
+  }
+
+/* giving emphasis to the text */
+.emphasis{
+    font-size: 1.7rem;
+    color: rgb(82, 80, 80);
+}
+/* giving emphasis to the text */
+
+
+/*boldness to the tag  */
+.tagbold{
+    color: rgb(41, 40, 40);
+    font-weight: 600;
+}
+/* boldness to the tag */
+
+
+/* giving a background color black */
+.bck{
+    background-color: rgb(21, 8, 51);
+}  
+/* giving a background color black */
+
+
+/* giving the text color white */
+.col{
+    color: white;
+}
+/*giving the text color white  */
+
+
+/*paddings*/
+.p1 {
+    padding: 0.5rem 0;
+}
+.p2 {
+    padding: 1.5rem 0;
+}
+.p3 {
+    padding: 2rem 0;
+}   
+/* paddings */
+
+
+/* boldness */
+.bold1 {
+    font-weight: 500;
+}
+.bold2 {
+    font-weight: 600;
+}
+.bold3 {
+    font-weight: 700;
+}
+/* boldness */
+
+
+/* creating a tag grey */
+.tag{
+    font-size: 1.5rem;
+    color: rgb(145,145,145);
+    font-weight: 100;
+}
+/* creating a tag grey */

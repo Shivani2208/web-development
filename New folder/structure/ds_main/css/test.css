@@ -1,0 +1,145 @@
+.outbx{
+    margin: 1rem;
+}
+.innerbox{
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+.tag_head{
+    border: 2px solid #ccc;
+    padding: 2rem;
+    border-bottom: none;
+    width: 50%;
+    text-align: center;
+}
+.taghead2{
+    border: 2px solid #ccc;
+    padding: 2.2rem;
+    border-top: none;
+    width: 50%;
+}
+
+.lis{
+   
+    border: 2px solid #ccc;
+    display: flex;
+    margin-left: 2rem;
+    border-top: none;
+    padding-bottom: 1rem;
+    
+    
+}
+.l_title{
+    
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+.l_num{
+    border: 3px solid #ccc;
+    padding: 0.6rem;
+    margin:2rem 2rem;
+    border-radius: 50%;
+    width: 3.9rem;
+    height: 3.9rem;
+    background: #fff;
+    color:#000;
+    font-size: 1.7rem ;
+    text-align: center;
+}
+
+
+/*  */
+.lpost{
+    display: flex;
+}
+
+.content{
+   display: flex; 
+}
+.bx1{
+    margin: 3rem;
+}
+.bx2{
+    margin: 3rem 0rem;
+}
+.pcard{
+    padding: 3.0rem;
+    border: 1px black solid;
+    margin-left: 4rem;
+    border-radius: 1%;
+    text-align: center;
+  }
+  .pcard_img2 img{
+     border:transparent;
+     border-radius: 50%;
+  }
+  .fo_me {
+    padding: 3rem 0rem;
+    margin: 0rem 4rem;
+  }
+  .mains{
+      display: flex;
+  }
+
+
+  .n_box{
+    margin: 1rem;
+    /* width: 35%; */
+  }
+  .new_box1{
+    width: 35.6%;
+    margin: 1rem;
+  }
+  .new_row{
+    display: flex;
+  }
+  .new_img{
+     margin: 2rem;
+  }
+  .new_title{
+    text-align: center;
+  }
+
+
+
+
+  .newsl_content{
+    /* width: 100%; */
+    background-color: black;
+    color: #e5e2e2;
+    border-radius: 0.9rem;
+    /* margin:3rem 0rem; */
+    padding: 1.5rem 0rem;
+  }
+  .newsl_h2{
+    margin: 1.9rem 2rem;
+  }
+  .newsl_p{
+    margin: 2.2rem ;
+  }
+  .input{
+    margin: 2rem 1rem;
+  }
+  .input1{
+    margin: 1.4rem 1.2rem;
+    padding: 1.5rem 9rem;
+    background-color:rgb(250, 246, 246);
+    border-radius: 0.5rem;
+    color:black;
+    text-align:left ;
+    border: none;
+    font-size: 1.6rem;
+    border: 1px solid #ccc;
+  }
+  .newsl_btn{
+    background-color:rgb(97, 96, 96);
+    border-radius: 0.5rem;
+    color:rgb(226, 219, 219);
+    padding: 1.5rem 13rem;
+    text-align:left ;
+    font-size: 1.6rem;
+    border: none;
+    margin: 1.4rem 1.3rem;
+  }
+

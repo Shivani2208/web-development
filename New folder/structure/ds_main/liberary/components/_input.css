@@ -1,0 +1,13 @@
+  .input{
+    margin: 0rem 2.8rem;
+  }
+  .input1{
+    margin: 3rem 1rem;
+    padding: 1.5rem 9rem;
+    background-color:rgb(250, 244, 244);
+    border-radius: 0.5rem;
+    color:rgb(36, 35, 35);
+    text-align:left ;
+    border: none;
+    font-size: 1.6rem;
+  }
