@@ -129,6 +129,9 @@ input
 .spacer{
     padding: 2rem 0;
 }
+.spacer1{
+    padding: 1rem 0;
+}
 .savebtn{
     border: none;
     padding: 1rem;
@@ -147,4 +150,10 @@ input
     position: absolute;
     top: 0;
     left: 0;
+}
+.btn{
+padding: 0.5rem;
+font-size: 1.8rem;
+border: none;
+background-color: grey;
 }
