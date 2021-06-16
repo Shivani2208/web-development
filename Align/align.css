@@ -1,6 +1,6 @@
 :root {
   --base_padding: 3rem;
-  --base_padding--spacer: 1.5rem;
+  --base_padding--spacer: 1.5em;
 }
 * {
   margin: 0rem;
@@ -9,26 +9,29 @@
 html {
   font-size: 62.5%;
 }
-.bod {
+/* .bod {
   border: 1px solid red;
-}
+} */
 .mainbox {
   background-color: rgb(156, 161, 163);
   justify-content: space-evenly;
   display: flex;
 }
+.container{
+  max-width: 120rem;
+}
 .box1 {
   padding: var(--base_padding);
-  width: 30%;
-  background-color: rgb(218, 50, 81);
+  width: 40%;
+  background-color: rgb(243, 144, 162);
 }
 .box2 {
+  background-color: rgb(181, 229, 236);
+  width: 60%;
   padding: var(--base_padding);
-  background-color: rgb(197, 223, 235);
-  width: 70%;
 }
 .box3 {
-  background-color: rgb(250, 179, 223);
+  background-color: rgb(250, 243, 243);
   flex-direction: column;
 }
 .box4 {
@@ -36,41 +39,47 @@ html {
   height: 20rem;
 }
 .box5 {
-  background-color: rgb(194, 159, 181);
-  height: 20rem;
+  background-color: rgb(255, 234, 247);
+  /* height: 20rem; */
   flex-direction: column;
 }
 .boxsec {
   /* height: 23rem; */
   display: flex;
+  
 }
 .boxsec1 {
-  height: 10rem;
+  /* height: 10rem; */
   display: flex;
 }
 
 .box3_1,
 .box3_2 {
-  height: 23rem;
+  /* height: 23rem; */
   width: 33.3%;
-  margin: 1rem;
+  padding: 0.7rem;
+  margin: 0.7rem;
+  background-color: rgb(235, 231, 231);
 }
 
-.box5_1 {
-  background-color: rgb(255, 255, 129);
-  height: 10rem;
-  width: 50%;
+.box5_1,
+.box5_2{
+    /* height: 23rem; */
+    width: 50%;
+    padding: 0.7rem;
+    margin: 0.7rem;
+    background-color: rgb(231, 231, 231);
 }
-.box5_2 {
-  background-color: rgb(175, 247, 109);
-  height: 10rem;
-  width: 50%;
-}
-.spacer {
+
+.spaceri {
   padding: var(--base_padding--spacer) 0;
 }
+a {
+  color: black;
+  text-decoration: none;
+}
 
-.box_bg-1 {
+/* .box_bg-1 {
   background-color: rgb(86, 158, 86);
 }
 .box_bg-2 {
@@ -78,7 +87,7 @@ html {
 }
 .box_bg-3 {
   background-color: rgb(219, 81, 178);
-}
+} */
 
 /* Mobile Responsive */
 
