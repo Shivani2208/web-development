@@ -1,0 +1,11 @@
+input {
+    padding: 2rem 0;
+    margin: 2rem 0;
+    font-size: large;
+    border-radius: 0.5rem;
+    border-style: solid;
+    width: 25%;
+    border-width: 0.1rem;
+    border-color: black;
+    background-color: rgb(213, 230, 233);
+  }

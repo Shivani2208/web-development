@@ -1,0 +1,76 @@
+.heading3_button{
+    margin:2.8rem;
+    padding: 1.3rem; 
+}
+
+.clickme_button{
+    margin:2.8rem;
+    padding: 1.3rem; 
+} 
+
+.jmpbtn{
+  background-color: rgb(41, 38, 38);
+  color: rgb(240, 229, 229);
+  border-style: solid;
+  border-color: rgb(143, 134, 134);
+  padding: 1.2rem;
+}
+
+.button{
+  background-color: rgb(177, 172, 172);
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: large;
+  border-radius: 0.5rem;
+  border-style: solid;
+  flex-wrap: wrap;
+  width: 32%;
+  border-width: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+.sbtn {
+    padding: 0.8rem;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+  }
+  
+  .sbtn:hover {
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .mbtn {
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+  }
+  
+  .mbtn:hover {
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .lbtn {
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 2rem;
+    /* background-color: $font_clr; */
+    transition: all 0.2s ease;
+  }
+  
+  .lbtn:hover {
+    background-color: rgb(247, 247, 247);
+  }
+  

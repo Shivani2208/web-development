@@ -1,0 +1,19 @@
+/* Dekstop */
+.dkstphide{
+    display: none;
+}
+
+.dkstpblock{
+    display: block;
+}
+/* Dekstop */
+/* Mobile */
+@media screen and (max-width: 900px){
+    .mobhide{
+        display: none;
+    }
+    .mobnlock{
+        display: block;
+    }
+}
+/* Mobile */
