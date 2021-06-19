@@ -89,16 +89,16 @@ input{
 
 /* Colour */
 .c1{
-  background-color: #FFF5EB;
+  color: #393E46;
 }
 .c2{
-  background-color: #DEEDF0;
+  background-color: #00ADB5;
 }
 .c3{
-  background-color: #F4C7AB;
+  background-color: #AAD8D3;
 }
 .c4{
-  background-color: #B2B8A3;
+  background-color: #EEEEEE;
 }
 /* Colour */
 
@@ -197,7 +197,9 @@ padding-left: 2.5rem !important;
 .pl6 {
 padding-left: 3rem !important;
 }
-
+.p0{
+  padding: 0rem;
+}
 .p1 {
   padding: 0.6rem !important;
 }
