@@ -15,5 +15,8 @@
     .mobnlock{
         display: block;
     }
+    .wid{
+        width:100%;
+    }
 }
 /* Mobile */

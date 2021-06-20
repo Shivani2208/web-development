@@ -45,10 +45,10 @@ p {
   padding: 1rem 0;
 }
 a {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
-  color: rgb(34, 32, 32);
-  text-decoration: none;
+  color: rgb(34, 32, 32) ;
+  text-decoration: none !important;
   font-weight: 600;
 }
 h1,
@@ -124,6 +124,7 @@ input{
   display: block;
 }
 /* Dekstop */
+
 /* Mobile */
 @media screen and (max-width: 900px){
   .mobhide{
@@ -290,6 +291,7 @@ padding: 3rem !important;
 /* Image */
 .imgwid{
   width: 100%;
+  /* height: 30%; */
 }
 /* Image */
 
@@ -509,5 +511,40 @@ input {
   font-size: 1.5rem;
   color: rgb(134, 128, 128);
   font-weight: 200;
+}
+
+.hdr{
+  background-image: url(../library/Image/img/ozgu-ozden-XUzVk_IJKPw-unsplash.jpg);
+  color: #fff;
+}
+
+.lmbtn{
+  border: none;
+  border-radius: 10%;
+  background-color: #1abc9c;
+  padding: 0.8rem;
+  font-size: 1.6rem;
+}
+.sec{
+  padding: 1.6rem;
+  display: flex;
+}
+.cardnew{
+  display: flex;
+}
+.block {
+  width: 50%;
+  margin: 0 auto;
+  
+}
+.form {
+  background-color: #fff;
+  width: 50%;
+}
+.wid{
+  width: 80%;
+}
+.bg{
+  background-color: rgb(241, 241, 241);
 }
 

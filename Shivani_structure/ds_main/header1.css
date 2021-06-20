@@ -1,0 +1,54 @@
+.headleft{
+    padding: 1.8rem;
+    justify-content: flex-start;
+    font-size: 2rem;
+    word-spacing: 2.5rem;
+    line-height: 3rem;
+  }
+
+  a{
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+    font-weight: 600;
+  }
+  
+.hedr{
+    background-image: url(../ds_main/library/Image/img/thought-catalog-Nv-vx3kUR2A-unsplash.jpg);
+    color: rgb(2, 2, 2);
+    background-position:bottom;
+  }
+  
+  .lmbtn{
+    border: none;
+    background-color: #f57e39;
+    padding: 0.8rem;
+    font-size: 1.6rem;
+  }
+  .sec{
+    padding: 1.6rem;
+    /* display: flex; */
+  }
+  .mainbox{
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(241, 237, 237);
+  }
+  .cardnew{
+    width: 30%;
+    background-color: rgb(240, 240, 240);
+      opacity: 0.5;
+  }
+ 
+  .wid{
+    width: 60%;
+  }
+  .nmt{
+    margin-top: -8rem;
+  }
+  .clr{
+      color: rgb(7, 7, 7);
+  }
+ 
+  

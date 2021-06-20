@@ -1,0 +1,53 @@
+.headleft{
+    padding: 1.8rem;
+    justify-content: flex-start;
+    font-size: 2rem;
+    word-spacing: 2.5rem;
+    line-height: 3rem;
+  }
+
+  a{
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(240, 240, 240) !important;
+    text-decoration: none !important;
+    font-weight: 600;
+  }
+  
+.headr{
+    background-image: url(../ds_main/library/Image/img/marcel-heil-j_PZJiA9gE4-unsplash.jpg);
+    color: rgb(255, 255, 255);
+    /* background-position:bottom; */
+    background-repeat: no-repeat;
+  }
+  
+  .lmbtn{
+    border: white solid 0.1rem;
+    background-color: transparent;
+    padding: 0.8rem;
+    font-size: 1.6rem;
+    color: whitesmoke;
+  }
+  .sec{
+    padding: 1.6rem;
+    /* display: flex; */
+  }
+  .mainbox{
+      display: flex;
+      justify-content: center;
+  }
+  .cardnew{
+    width: 20%;
+  }
+ 
+  /* .wid{
+    width: 60%;
+  } */
+  .nmt{
+    margin-top: -8rem;
+  }
+  .clr{
+      color: rgb(7, 7, 7);
+  }
+ 
+  
