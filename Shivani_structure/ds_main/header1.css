@@ -18,7 +18,7 @@ a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.082), rgba(0, 0, 0, 0.534)), url(../ds_main/library/Image/img/thought-catalog-Nv-vx3kUR2A-unsplash.jpg);
   color: rgb(2, 2, 2);
   background-position: center;
-  height: 80vh;
+  height: 85vh;
 }
 
 .lmbtn {
@@ -53,4 +53,17 @@ a {
 }
 
 @media only screen and (max-width: 780px) {
+  .mobhide{
+    display: none;
 }
+.mobnlock{
+    display: block;
+}
+.cardnew {
+  width: 100%;
+  margin: 4rem 0;
+}
+.nmt{
+  margin-top: 2rem;
+}
+  }

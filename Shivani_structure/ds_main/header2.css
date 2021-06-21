@@ -15,10 +15,11 @@
   }
   
 .headr{
-    background-image: url(../ds_main/library/Image/img/marcel-heil-j_PZJiA9gE4-unsplash.jpg);
-    color: rgb(255, 255, 255);
-    /* background-position:bottom; */
     background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.082), rgba(0, 0, 0, 0.534)), url(../ds_main/library/Image/img/marcel-heil-j_PZJiA9gE4-unsplash.jpg);
+    color: rgb(2, 2, 2);
+    background-position: center;
+    height: 85vh;
   }
   
   .lmbtn{
@@ -49,5 +50,19 @@
   .clr{
       color: rgb(7, 7, 7);
   }
- 
+  .clr2{
+    color: rgb(255, 254, 254) !important;
+}
+@media only screen and (max-width: 780px) {
+  .mobhide{
+    display: none;
+}
+.mobnlock{
+    display: block;
+}
+.cardnew {
+  width: 100%;
   
+}
+
+  }
