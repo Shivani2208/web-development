@@ -24,18 +24,20 @@ body{
   max-width: 120rem !important;
   margin: 0 auto;
 }
-
+.jumbo{
+  font-size: 6rem;
+}
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 h2 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 h3 {
-  font-size: 2.6rem;
+  font-size: 3.6rem;
 }
 h4 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 p {
@@ -523,7 +525,7 @@ input {
 
 .lmbtn{
   border: none;
-  border-radius: 10%;
+  border-radius: 2rem;
   background-color: #1abc9c;
   padding: 0.8rem;
   font-size: 1.6rem;
