@@ -73,11 +73,28 @@ hr{
   color: black;
   margin: 2rem 0;
 }
-.placeholder{
-background-color: rgb(119, 117, 115);
+input {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0rem;
 }
-input{
-  width: 25%;
+::placeholder{
+  font-size: 1.5rem;
+}
+label{
+  font-size: 2rem;
+font-weight: 500;
+}
+textarea{
+  font-size: 1.5rem;
+}
+form{
+  font-size: 1.5rem;
+}
+option,
+select{
+  font-size: 2rem;
 }
 /* Shadow */
 .sadow{
@@ -443,7 +460,7 @@ border-width: 0.1rem;
   padding: 1.6rem;
 }
 
-input {
+/* input {
   padding: 2rem 0;
   margin: 2rem 0;
   font-size: large;
@@ -453,7 +470,7 @@ input {
   border-width: 0.1rem;
   border-color: black;
   background-color: rgb(213, 230, 233);
-}
+} */
 .nav {
   font-size: 2rem;
   line-height: 3;
@@ -567,5 +584,8 @@ input {
   }
   .wid{
     width: 100%;
+  }
+  .jumbo{
+    font-size:5rem
   }
 }

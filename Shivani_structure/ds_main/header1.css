@@ -55,7 +55,9 @@ a {
 .clr2 {
   color: rgb(248, 248, 248);
 }
-
+.jumbo{
+  font-size: 6rem;
+}
 @media only screen and (max-width: 780px) {
   .mobhide{
     display: none;
@@ -69,5 +71,8 @@ a {
 }
 .nmt{
   margin-top: 2rem;
+}
+.jumbo{
+  font-size:5rem
 }
   }

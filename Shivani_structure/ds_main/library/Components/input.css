@@ -1,11 +1,10 @@
 input {
-    padding: 2rem 0;
-    margin: 2rem 0;
-    font-size: large;
-    border-radius: 0.5rem;
-    border-style: solid;
+    /* padding: 1.5rem 0;
+    margin: 1rem 0; */
+    font-size: 1.5rem;
     width: 25%;
-    border-width: 0.1rem;
-    border-color: black;
-    background-color: rgb(213, 230, 233);
+    border: none;
+  }
+  ::placeholder{
+    font-size: 1.5rem;
   }
