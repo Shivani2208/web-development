@@ -204,6 +204,9 @@ body {
 .txtac {
   text-align: center;
 }
+.txtend{
+  text-align: end;
+}
 
 .flex {
   display: flex !important;
@@ -299,7 +302,7 @@ h5{
 
 p,
 li {
-  font-size: 1.5rem !important;
+  font-size: 1.6rem !important;
   line-height: 2.5rem;
   word-spacing: 0.1rem;
   font-weight: 400;
@@ -321,7 +324,7 @@ p {
 
 .stag {
   font-size: 1.4rem !important;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .xsicon {
