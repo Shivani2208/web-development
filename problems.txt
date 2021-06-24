@@ -1,2 +1,5 @@
 Mobile view
 prettier
+grid
+alignment
+
