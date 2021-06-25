@@ -1,0 +1,112 @@
+:root {
+  --base_padding: 3rem;
+  --base_padding--spacer: 1.5em;
+}
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+html {
+  font-size: 62.5%;
+}
+/* .bod {
+  border: 1px solid red;
+} */
+.mainbox {
+  background-color: rgb(156, 161, 163);
+  justify-content: space-evenly;
+  display: flex;
+}
+.container{
+  max-width: 120rem;
+}
+.box1 {
+  padding: var(--base_padding);
+  width: 40%;
+  background-color: rgb(243, 144, 162);
+}
+.box2 {
+  background-color: rgb(181, 229, 236);
+  width: 60%;
+  padding: var(--base_padding);
+}
+.box3 {
+  background-color: rgb(250, 243, 243);
+  flex-direction: column;
+}
+.box4 {
+  background-color: rgb(224, 197, 217);
+  height: 20rem;
+}
+.box5 {
+  background-color: rgb(255, 234, 247);
+  /* height: 20rem; */
+  flex-direction: column;
+}
+.boxsec {
+  /* height: 23rem; */
+  display: flex;
+  
+}
+.boxsec1 {
+  /* height: 10rem; */
+  display: flex;
+}
+
+.box3_1,
+.box3_2 {
+  /* height: 23rem; */
+  width: 33.3%;
+  padding: 0.7rem;
+  margin: 0.7rem;
+  background-color: rgb(235, 231, 231);
+}
+
+.box5_1,
+.box5_2{
+    /* height: 23rem; */
+    width: 50%;
+    padding: 0.7rem;
+    margin: 0.7rem;
+    background-color: rgb(231, 231, 231);
+}
+
+.spaceri {
+  padding: var(--base_padding--spacer) 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* .box_bg-1 {
+  background-color: rgb(86, 158, 86);
+}
+.box_bg-2 {
+  background-color: rgb(104, 135, 235);
+}
+.box_bg-3 {
+  background-color: rgb(219, 81, 178);
+} */
+
+/* Mobile Responsive */
+
+@media only screen and (max-width: 700px) {
+  .mainbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .box1 {
+    padding: 1.5rem;
+    width: 100%;
+  }
+  .box2 {
+    padding: 1.5rem;
+    width: 100%;
+  }
+  .box3 {
+    display: none;
+  }
+}
+
+/* Mobile Responsive */

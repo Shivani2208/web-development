@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+a{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #4d4c50 !important;
+    text-decoration: none !important;
+    word-spacing: 0rem;
+    font-size: 2rem !important;
+    
+}
+.dancing_script{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3rem !important;
+    text-decoration: none;
+    color: black !important;
+}
+.headleft{
+    word-spacing: 3rem;
+    line-height: 3rem;
+  }
+  .headright{
+    font-size: 1.8rem;
+    word-spacing: 1rem;
+    line-height: 3rem;
+}
+
+button{
+    font-size: 2rem;
+}
+.signinbtn{
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
+.signupbtn{
+    border: none;
+    padding: 0.5rem 1rem!important;
+    border-radius: 1rem;
+    background-color: rgb(245, 104, 158);
+    color: white;
+    font-size: 1.8rem;
+}
+.signupbtn:hover{
+    background-color: hotpink;
+}
+.signupbtn:active{
+    background-color: rgb(219, 113, 196);
+}
+.bck{
+    background-color: white;
+}
+.bck1{
+    border-top: 0.1rem solid rgb(240, 240, 240);
+    background-color: #F9F8FD;
+}
+.jumbo{
+    font-size: 5rem;
+    color: rgb(29, 27, 27) !important;
+    line-height: 5.8rem !important;
+}
+.p0{
+    padding: 0rem !important;
+}
+.wid100{
+    width: 100%;
+}
+@media screen and (max-width: 780px) {
+    .mhide {
+      display: none;
+    }
+    .mblock {
+      display: block;
+    }
+    .abc{
+        text-align: center;
+    }
+    .jumbo{
+        font-size: 3.5rem;
+        line-height: 4rem !important;
+    }
+    input{
+        width: 100%;
+    }
+   
+  }
+  .wid{
+      width: 25%;
+  }
+  .instyle
+  {
+    padding: 1rem ;
+  }
+  .instyle:optional{
+    padding: 0.6rem;
+    border: 0.1rem solid rgba(218, 215, 215, 0.842);
+    border-radius: 1rem;
+  }
+  .instyle:optional:hover{
+      border: 0.2rem solid rgb(245, 211, 222);
+  }
+  .dribbtn{
+    color: rgb(124, 120, 120);
+    border: none;
+    background-color: transparent;
+    padding: 1rem;
+    font-size: 1.6rem;
+  }
+  .dribbtn:hover{
+      color: black;
+  }
+  .dribbtn:active{
+      background-color: rgb(228, 224, 224);
+      color: rgb(14, 13, 13);
+      padding: 1rem;
+      border-radius: 1rem;
+  }
+  .card{
+      /* margin: 1rem; */
+      border: none !important;
+      padding: 1rem 0;
+  }
+  .teambtn{
+      background-color: rgb(107, 104, 104);
+      color: white;
+      border: none; padding: 0 0.3em;
+      border-radius: 1rem;
+  }
+  
+  .bora{
+      border-radius: 1rem;
+  }
+  .pa{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgb(5, 5, 5);
+}
+.filbtn{
+    border: none;
+    padding: 1rem 1.5rem;
+    background-color: rgb(241, 241, 241);
+    border-radius: 1rem;
+}
+.filbtn:hover{
+    background-color: transparent;
+}
+.ta1{
+    border: none;
+    background-color: rgb(235, 230, 230);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.ta1:hover{
+    border: 0.2rem solid rgb(245, 211, 222);
+}
+::placeholder{
+    padding: 1rem;
+}
