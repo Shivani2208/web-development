@@ -12,16 +12,6 @@
     padding: 1rem 2rem;
     border-radius: 1rem;
 }
-.ws{
-    width: 70%;
-}
-.wt{
-    width: 30%;
-}
-.mainbox{
-    display: flex;
-    padding: 0 20rem;
-}
 .pa{
     font-size: 1.8rem;
     color: rgb(5, 5, 5);
@@ -33,7 +23,11 @@
     .mblock {
       display: block;
     }
-    .mainbox{
-        padding: 1rem;
-    }
+  }
+  .imr{
+      border-radius: 50%;
+  }
+  .listf{
+      font-size: 2.2rem !important;
+      line-height: 5rem;
   }

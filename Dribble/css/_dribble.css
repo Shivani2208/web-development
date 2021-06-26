@@ -5,7 +5,6 @@ a{
     text-decoration: none !important;
     word-spacing: 0rem;
     font-size: 2rem !important;
-    
 }
 .dancing_script{
     font-family: 'Dancing Script', cursive;
@@ -24,19 +23,17 @@ a{
     line-height: 3rem;
 }
 
-button{
-    font-size: 2rem;
-}
 .signinbtn{
     border: none;
     background-color: transparent;
     color: gray;
+    padding: 0.5rem 1rem!important;
 }
 .signupbtn{
     border: none;
     padding: 0.5rem 1rem!important;
     border-radius: 1rem;
-    background-color: rgb(245, 104, 158);
+    background-color: #ea4c89;
     color: white;
     font-size: 1.8rem;
 }
@@ -46,9 +43,7 @@ button{
 .signupbtn:active{
     background-color: rgb(219, 113, 196);
 }
-.bck{
-    background-color: white;
-}
+
 .bck1{
     border-top: 0.1rem solid rgb(240, 240, 240);
     background-color: #F9F8FD;
@@ -57,9 +52,6 @@ button{
     font-size: 5rem;
     color: rgb(29, 27, 27) !important;
     line-height: 5.8rem !important;
-}
-.p0{
-    padding: 0rem !important;
 }
 .wid100{
     width: 100%;
@@ -81,8 +73,8 @@ button{
     input{
         width: 100%;
     }
-   
   }
+
   .wid{
       width: 25%;
   }
@@ -91,7 +83,7 @@ button{
     padding: 1rem ;
   }
   .instyle:optional{
-    padding: 0.6rem;
+    padding: 1rem;
     border: 0.1rem solid rgba(218, 215, 215, 0.842);
     border-radius: 1rem;
   }
@@ -117,7 +109,7 @@ button{
   .card{
       /* margin: 1rem; */
       border: none !important;
-      padding: 1rem 0;
+      padding: 0rem 1rem;
   }
   .teambtn{
       background-color: rgb(107, 104, 104);
@@ -154,4 +146,14 @@ button{
 }
 ::placeholder{
     padding: 1rem;
+}
+.drib{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 4rem !important;
+    text-decoration: none;
+    color: #ea4c89 !important;
+}
+li{
+    line-height: 3.7rem;
 }
