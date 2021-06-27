@@ -14,7 +14,7 @@
 }
 .pa{
     font-size: 1.8rem;
-    color: rgb(5, 5, 5);
+    color: rgb(19, 18, 18);
 }
 @media screen and (max-width: 780px) {
     .mhide {
@@ -26,8 +26,10 @@
   }
   .imr{
       border-radius: 50%;
+      height: 70%;
+      padding: 0 1rem;
   }
   .listf{
       font-size: 2.2rem !important;
-      line-height: 5rem;
+      line-height: 4rem;
   }
