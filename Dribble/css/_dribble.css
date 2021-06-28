@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 a{
     font-family: 'Noto Sans JP', sans-serif;
-    color: #4d4c50 !important;
+    color: #6e6d7a!important;
     text-decoration: none !important;
     word-spacing: 0rem;
     font-size: 2rem !important;
@@ -19,7 +19,8 @@ a{
     font-weight: 700;
     font-size: 3rem !important;
     text-decoration: none;
-    color: black !important;
+    color: #363636 !important;
+    padding: 0 2rem;
 }
 .headleft{
     word-spacing: 3rem;
@@ -132,7 +133,6 @@ a{
   
   .bora{
       border-radius: 1rem;
-      padding: 0rem !important;
   }
   .pa{
     font-size: 1.8rem;
@@ -173,4 +173,10 @@ li{
 .bstrip{
     height: 2rem;
     background-color:  #0d0c22;
+}
+.par{
+    padding-right: 1rem;
+}
+.bk2{
+    background-color: blanchedalmond;
 }
