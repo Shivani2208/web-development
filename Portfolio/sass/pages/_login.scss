@@ -1,0 +1,31 @@
+$primary_color: #e9f2fc;
+$sec_color: #080a0b;
+
+.login_page {
+  background-color: $primary_color;
+  height: 100vh;
+}
+
+.login_page--block {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.login_page--form {
+  background-color: #fff;
+  width: 50%;
+}
+.login_page--img {
+  width: 50%;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.548)),
+    url("../../images/id.jpg");
+  background-size: cover;
+  background-color: $sec_color;
+  height: inherit;
+}
+
+.login_page--btn {
+  background-color: $sec_color;
+  color: #fff;
+}

@@ -1,0 +1,59 @@
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+ul,
+li {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+// Define Font for heading
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+// Define Font for heading
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3.1rem;
+}
+h3 {
+  font-size: 2.6rem;
+}
+h4 {
+  font-size: 2.3rem;
+}
+
+// Define Font Size Heading
+p,
+li {
+  font-size: 1.6rem !important;
+  line-height: 2.5rem;
+  word-spacing: 0.1rem;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: .5rem !important;
+}
+
+.ltag {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.mtag {
+  font-size: 1.6rem !important;
+  font-weight: 400;
+}
+.stag {
+  font-size: 1.4rem !important;
+  font-weight: 400;
+}

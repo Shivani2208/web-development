@@ -6,18 +6,17 @@ a{
     word-spacing: 0rem;
     font-size: 2rem !important;
 }
-.row,
+/* .row,
 .col{
     margin: 0rem;
     padding: 0rem !important;
-}
+} */
 .header{
     padding: 0rem;
 }
 .dancing_script{
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
-    font-size: 3rem !important;
     text-decoration: none;
     color: #363636 !important;
     padding: 0 2rem;
@@ -27,7 +26,7 @@ a{
     line-height: 3rem;
   }
   .headright{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     word-spacing: 1rem;
     line-height: 3rem;
 }
@@ -36,6 +35,7 @@ a{
     border: none;
     background-color: transparent;
     color: gray;
+    font-size: 1.4rem;
     /* padding: 0.5rem 1rem!important; */
 }
 .signupbtn{
@@ -44,8 +44,7 @@ a{
     border-radius: 1rem;
     background-color: #ea4c89;
     color: white;
-    font-size: 1.6rem;
-    font-weight: 500;
+    font-size: 1.4rem;
 }
 .signupbtn:hover{
     background-color: hotpink;
@@ -84,10 +83,9 @@ a{
         width: 100%;
     }
   }
-
-  .wid{
-      width: 25%;
-  }
+input{
+    width: 100%;
+}
   .instyle
   {
     padding: 1rem ;
@@ -116,15 +114,15 @@ a{
       padding: 1rem;
       border-radius: 1rem;
   }
-  .card{
-      /* margin: 1rem; */
-      border: none !important;
-      padding: 1rem !important;
+  .dribcard{
+      display: flex;
+      flex-direction: column;
+      /* padding: 1rem !important; */
   }
   .teambtn{
-      background-color: rgb(107, 104, 104);
-      color: white;
-      border: none;  
+      background-color: rgb(107, 104, 104) !important;
+      color: white !important;
+      border: none !important;  
       font-size: 1.1rem !important;    
   }
   .fo{
@@ -133,6 +131,7 @@ a{
   
   .bora{
       border-radius: 1rem;
+      width: 100%;
   }
   .pa{
     font-size: 1.8rem;
@@ -176,7 +175,4 @@ li{
 }
 .par{
     padding-right: 1rem;
-}
-.bk2{
-    background-color: blanchedalmond;
 }
