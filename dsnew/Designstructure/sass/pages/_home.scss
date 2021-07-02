@@ -1,0 +1,168 @@
+// Sections
+.section_header {
+  background-color: $primary_clr;
+}
+
+.section_handsontech {
+  background-color: $bg_clr;
+}
+
+// hero wordblock
+.hero_wordblock {
+  background-image: url("../../images/header_bgsvg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &-title {
+    font-size: 6rem;
+    line-height: 7rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  &-para {
+    font-size: 1.9rem !important;
+    line-height: 3.2rem;
+    color: #fff;
+  }
+
+  &-btn {
+    background-color: $secondary_clr;
+    font-family: $heading_font;
+    color: $font_clr;
+    font-weight: 800;
+    font-size: 2.5rem;
+    border-radius: 2px;
+    min-width: 20rem;
+  }
+}
+
+// Technos
+.technos {
+  background-color: $font_clr;
+  &_icon {
+    width: 5.8rem;
+    margin: 0 1rem;
+    color: #fff;
+  }
+}
+
+// Technos Section Icons
+.tech_icon {
+  width: 6.7rem;
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+.tech_icon path {
+  fill: rgb(114, 114, 114);
+}
+
+.tech_icon:hover path {
+  transition: all 0.2s ease;
+  fill: $secondary_clr;
+}
+
+// Cleancode
+.cleancode {
+  background-color: $secondary_clr;
+
+  &_blob {
+    background-image: url("../../images/bg_blob2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+// Frameworks
+.framworks_heading {
+  color: $secondary_clr;
+}
+
+// plans
+.plans {
+  &_title {
+    font-weight: 600;
+    color: $cta_clr;
+  }
+
+  &_price {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  &_items {
+    padding: 0.5rem 0 !important;
+  }
+}
+
+// wordpress
+.wordpress {
+  background-image: url("../../images/blob_3.svg");
+  background-repeat: no-repeat;
+  background-size: 60%rem;
+}
+
+// process
+.process {
+  background-color: $font_clr;
+  color: #fff !important;
+}
+
+// GetStart
+
+.getstart {
+  background-color: rgb(248, 248, 248);
+  // background-image: url("../images/bg_ill2.svg");
+  // background-repeat: no-repeat;
+  // background-size: 20rem;
+  // background-position: 20rem;
+}
+
+.GetStart_inp {
+  width: 35%;
+}
+
+// letsconnect
+.letsconnect {
+  background-color: rgb(248, 248, 248);
+}
+
+@media screen and (max-width: 780px) {
+  .hero_wordblock {
+    &-title {
+      font-size: 5rem;
+      line-height: 6rem;
+    }
+
+    &-para {
+      font-size: 1.6rem !important;
+      line-height: 2.5rem;
+    }
+
+    &-btn {
+      font-size: 2.3rem;
+      border-radius: 2px;
+      min-width: 18rem;
+    }
+  }
+
+  .hero_img {
+    width: 80%;
+  }
+}
+
+// frameworks
+.framworks {
+  background-color: $font_clr;
+  color: #fff !important;
+}
+
+// Rest Code
+// Service
+// .svc_card--2 {
+//   background-color: $;
+// }
+
+// Service
+// .service_cards {
+//   padding: 6rem 0 !important;
+// }

@@ -1,0 +1,49 @@
+// All Base sections Here
+
+.section-xs,
+.section-s,
+.section-m,
+.section-l,
+.section-lx {
+  width: 100%;
+}
+
+.section {
+  padding: 5rem 0rem;
+}
+.section-xs {
+  padding: 1rem 0rem;
+}
+.section-s {
+  padding: 3rem 0rem;
+}
+.section-m {
+  padding: 4rem 0rem;
+}
+.section-l {
+  padding: 6rem 0rem;
+}
+.section-lx {
+  padding: 8rem 0rem;
+}
+
+@media screen and (max-width: 780px) {
+  .section {
+    padding: calc(5rem / 1.2) 0rem;
+  }
+  .section-xs {
+    padding: calc(1rem / 1.2) 0rem;
+  }
+  .section-s {
+    padding: calc(3rem / 1.2) 0rem;
+  }
+  .section-m {
+    padding: calc(4rem / 1.2) 0rem;
+  }
+  .section-l {
+    padding: calc(6rem / 1.2) 0rem;
+  }
+  .section-lx {
+    padding: calc(8rem / 1.2) 0rem;
+  }
+}

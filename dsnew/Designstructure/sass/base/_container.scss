@@ -1,0 +1,9 @@
+.container {
+  max-width: $container;
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    max-width: 90% !important;
+  }
+}
