@@ -1,0 +1,44 @@
+.orbor{
+    background-color:orangered;
+    width: 15%;
+    height: 0.2rem;
+
+}
+.no{
+    color: rgb(233, 18, 18);
+    font-size: 5rem !important;
+}
+.tclr{
+    color: rgb(255, 253, 253);
+}
+.orbtn{
+    padding: 1rem;
+    font-size: 1.4rem;
+    background-color: rgb(253, 48, 48);
+    border: none;
+}
+.bgimg{
+    background-image: url(../images/imgs/scott-graham-5fNmWej4tAA-unsplash\ \(1\).jpg);
+    background-size: 100%;
+    height: 70vh;
+    background-position: bottom;
+}
+.drib{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 4rem !important;
+    text-decoration: none;
+    color: rgb(233, 18, 18) !important;
+}
+.par{
+    padding-right: 1rem;
+}
+.bld{
+    font-weight: 700;
+}
+li{
+    line-height: 3.7rem;
+}
+.bck1{
+    border-top: rgb(228, 225, 225) solid 0.1rem;
+}   

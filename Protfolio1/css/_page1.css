@@ -1,0 +1,22 @@
+.orbor{
+    background-color:orangered;
+    width: 15%;
+    height: 0.2rem;
+}
+.agimg{
+    width: 100%;
+    height: 100vh;
+}
+@media screen and (max-width: 780px) {
+    .mhide {
+      display: none;
+    }
+    .mblock {
+      display: block;
+    }
+    .agimg{
+        height: 50vh;
+        height: autoss;
+    }
+  }
+  
