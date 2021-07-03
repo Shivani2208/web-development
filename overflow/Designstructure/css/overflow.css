@@ -46,7 +46,7 @@ a{
     font-weight: 500 !important;
 }
 .jumbo{
-    font-size: 6.2rem !important;
+    font-size: 6rem !important;
     font-weight: 700;
     line-height: 6.8rem !important;
 }
@@ -61,10 +61,11 @@ a{
         text-align: center;
     }
     .jumbo{
-        font-size: 3.2rem;
+        font-size: 3.8rem !important;
         line-height: 7rem !important;
     }
-    input{
-        width: 100%;
-    }
   }
+.limg{
+    width: 100%;
+    height:fit-content ;
+}
