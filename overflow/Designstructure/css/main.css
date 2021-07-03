@@ -174,9 +174,9 @@ body {
   color: #333;
 }
 
-.bod {
+/* .bod {
   border: 1px solid red;
-}
+} */
 
 .nodeco {
   text-decoration: none;
@@ -495,7 +495,7 @@ body {
 }
 
 .container {
-  max-width: 118rem;
+  max-width: 126rem;
 }
 
 @media screen and (max-width: 780px) {
