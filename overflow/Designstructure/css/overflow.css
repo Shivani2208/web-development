@@ -64,6 +64,9 @@ a{
         font-size: 3.8rem !important;
         line-height: 7rem !important;
     }
+    .cen{
+        justify-content: center;
+    }
   }
 .limg{
     width: 100%;
