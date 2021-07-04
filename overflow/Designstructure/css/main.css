@@ -1055,4 +1055,19 @@ a {
 .limg {
   width: 100%;
 }
+
+.par {
+  color: #161637;
+  font-weight: 300;
+}
+
+.boxb {
+  color: #161637 !important;
+  font-size: 1.6rem !important;
+  font-weight: 500;
+}
+
+.bk {
+  background-color: #d5f3ff;
+}
 /*# sourceMappingURL=main.css.map */
