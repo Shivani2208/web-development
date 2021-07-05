@@ -9,10 +9,13 @@ a {
   text-decoration: none !important;
   word-spacing: 0rem;
   font-size: 1.7rem !important;
-  font-weight: 500;
+  font-weight: 400;
+}
+a:hover{
+  text-decoration: underline !important;
 }
 .headleft {
-  word-spacing: 4rem !important;
+word-spacing: 2rem !important;
 }
 .pr {
   padding-right: 4rem;
@@ -47,7 +50,7 @@ a {
   border-radius: 0.5rem;
 }
 .menu {
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
   font-weight: 500 !important;
   background-color: #edf3fa;
   border-radius: 1.2rem;
@@ -66,25 +69,68 @@ a {
 }
 .par {
   color: #161637;
-  font-weight: 300;
+  font-weight: 400 !important;
+  font-size: 2rem !important;
 }
 .boxb {
-  color: #161637 !important;
+  color: #151582 !important;
   font-size: 1.6rem !important;
   font-weight: 500;
 }
 .bk {
   background-color: #d5f3ff;
 }
+.instyle_over{
+  border: transparent;
+  border-radius: 3px;
+  background-color: white;
+  width: 100%;
+  color: #333;
+  outline: none;
+  // padding: 0.8rem;
+  font-size: 1.7rem !important;
+  font-weight: 400;
+}
+.marright{
+  margin-right: 4rem;
+}
+.wr{
+  flex-wrap: wrap;
+}
+.see{
+  color: #0085e4 !important;
+  font-weight: 500;
+}
+@media screen and (max-width: 1200px) {
+  .jumbo {
+    font-size: 5rem !important;
+    // line-height: 5.6rem !important;
+  }
+  .abc {
+    text-align: center;
+  }
+  .ihide{
+    display: none;
+  }
+  .iblock{
+    display: block;
+  }
+}
+
 
 @media screen and (max-width: 992px) {
   .jumbo {
     font-size: 5rem !important;
     // line-height: 5.6rem !important;
   }
-
   .abc {
     text-align: center;
+  }
+  .thide{
+    display: none;
+  }
+  .tblock{
+    display: block;
   }
 }
 
@@ -103,14 +149,15 @@ a {
   .cen {
     justify-content: center;
   }
-  // .flex {
-  //   flex-direction: column;
-  // }
+  .wi{
+    width: 100%;
+  }
 }
 
-// @media screen and (max-width: 576) {
-//   .jumbo {
-//     font-size: 3.7rem !important;
-//     line-height: 5rem !important;
-//   }
-// }
+@media screen and (max-width: 576px) {
+  .jumbo {
+    font-size: 3.5rem !important;
+    line-height: 4rem !important;
+  }
+  
+}
