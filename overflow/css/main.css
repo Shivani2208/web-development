@@ -975,10 +975,16 @@ a {
   word-spacing: 0rem;
   font-size: 1.7rem !important;
   font-weight: 400;
+  display: block;
 }
 
-a:hover {
-  text-decoration: underline !important;
+.bk1 {
+  background-color: white !important;
+}
+
+.lin:hover {
+  color: black !important;
+  border-bottom: 0.2rem solid black !important;
 }
 
 .headleft {
@@ -1037,6 +1043,10 @@ a:hover {
   width: 100%;
 }
 
+.pfix {
+  width: 100%;
+}
+
 .par {
   color: #161637;
   font-weight: 400 !important;
@@ -1076,6 +1086,59 @@ a:hover {
 .see {
   color: #0085e4 !important;
   font-weight: 500;
+}
+
+.hei {
+  height: 70rem;
+}
+
+.intro_img {
+  top: 26%;
+  left: 1%;
+}
+
+.blue_dot {
+  width: 30%;
+  top: 17%;
+  left: 23%;
+}
+
+.blue_cir {
+  width: 27%;
+  top: 14%;
+  left: 13%;
+}
+
+.org_dot {
+  width: 27%;
+  top: 61%;
+  left: 63%;
+}
+
+.user1 {
+  width: 14%;
+  top: 5%;
+  right: 91%;
+}
+
+.user2 {
+  width: 14%;
+  top: 8%;
+  left: 80%;
+}
+
+.user3 {
+  width: 14%;
+  top: 50%;
+  left: 94%;
+}
+
+.rel {
+  position: relative;
+}
+
+.abso {
+  position: absolute;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1134,5 +1197,48 @@ a:hover {
     font-size: 3.5rem !important;
     line-height: 4rem !important;
   }
+}
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+.semcir {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 400px;
+  width: 800px;
+  border-radius: 250px 250px 0 0;
+  background-color: #d5f3ff;
 }
 /*# sourceMappingURL=main.css.map */
