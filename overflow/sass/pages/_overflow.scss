@@ -1,24 +1,9 @@
-.testmyscss {
-  color: palevioletred;
-}
-.abs {
-  width: 100%;
-}
-a {
-  color: #6e6d7a !important;
-  text-decoration: none !important;
-  word-spacing: 0rem;
-  font-size: 1.7rem !important;
-  font-weight: 400;
-  display: block;
-}
+
+
 .bk1{
   background-color: rgb(255, 255, 255) !important;
 }
-.lin:hover{
-  color: rgb(0, 0, 0) !important;
-  border-bottom: 0.2rem solid black !important;
-}
+
 .headleft {
 word-spacing: 2rem !important;
 }
@@ -27,6 +12,14 @@ word-spacing: 2rem !important;
 }
 .pr {
   padding-right: 4rem;
+}
+.subbtn {
+  font-size: 1.7rem;
+  background-color: #2c2c96;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  padding: 0 1rem;
+  border: none;
 }
 .startbtn {
   font-size: 1.7rem;
@@ -54,6 +47,9 @@ word-spacing: 2rem !important;
   font-weight: 500;
   border-radius: 0.5rem;
 }
+li{
+  line-height: 4.5rem;
+}
 .menu {
   font-size: 1.5rem !important;
   font-weight: 500 !important;
@@ -62,11 +58,7 @@ word-spacing: 2rem !important;
   border: none;
   padding: 0.7rem;
 }
-.jumbo {
-  font-size: 6rem !important;
-  font-weight: 700;
-  line-height: 6.8rem !important;
-}
+
 
 .limg {
   width: 100%;
@@ -102,13 +94,12 @@ word-spacing: 2rem !important;
   margin-right: 4rem;
 }
 .wr{
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
 }
 .see{
   color: #0085e4 !important;
   font-weight: 500;
 }
-
 .hei{
   height: 60rem;
 }
@@ -148,12 +139,7 @@ word-spacing: 2rem !important;
   left: 93%;
 
 }
-.rel{
-  position: relative;
-}
-.abso{
-  position: absolute;
-}
+
 img.vert-move {
   -webkit-animation: mover 1s infinite  alternate;
   animation: mover 1s infinite  alternate;
@@ -188,18 +174,28 @@ img.vert-move {
 .flexc{
   display: flex;
 }
+.blubk{
+  background-color: #a4e5ff;
+}
+.bora{
+  border-radius: 50%;
+}
+.shimg {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+
 
 @media screen and (max-width: 1200px) {
   .jumbo {
     font-size: 5rem !important;
     // line-height: 5.6rem !important;
   }
-  .ihide{
-    display: none;
+  .w1200{
+    width: 100%;
   }
-  .iblock{
-    display: block;
-  }
+  
   
 }
 @media screen and (max-width: 992px) {
@@ -258,6 +254,22 @@ img.vert-move {
 }
 
 @media screen and (max-width: 780px) {
+  h1 {
+    font-size: calc(#{$h1} / #{$font_mob_ratio}) !important;
+  }
+  h2 {
+    font-size: calc(#{$h2} / #{$font_mob_ratio}) !important;
+  }
+  h3 {
+    font-size: calc(#{$h3} / #{$font_mob_ratio}) !important;
+  }
+  h4 {
+    font-size: calc(#{$h4} / #{$font_mob_ratio}) !important;
+  }
+  h5 {
+    font-size: calc(#{$h5} / #{$font_mob_ratio}) !important;
+  }
+
   .mhide {
     display: none;
   }
@@ -325,5 +337,3 @@ img.vert-move {
   
   }
 }
-
-

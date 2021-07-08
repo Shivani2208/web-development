@@ -23,6 +23,11 @@ h6 {
 }
 
 // Define Font for heading
+.jumbo {
+  font-size: 6rem !important;
+  font-weight: 700;
+  line-height: 6.8rem !important;
+}
 h1 {
   font-size: $h1 !important;
 }
@@ -59,17 +64,31 @@ ol {
 }
 
 // Ul Li's Styling
-ul,
-ol {
-  padding-left: 2.5rem !important;
-}
+// ul,
+// ol {
+//   padding-left: 2.5rem !important;
+// }
 
 li {
   padding-left: 0.6rem !important;
 }
 
+// Link
+// a {
+//   text-decoration: none;
+// }
+
 a {
-  text-decoration: none;
+  color: #6e6d7a !important;
+  text-decoration: none !important;
+  word-spacing: 0rem;
+  font-size: 1.7rem !important;
+  font-weight: 400;
+  display: block;
+}
+.lin:hover{
+  color: rgb(0, 0, 0) !important;
+  border-bottom: 0.2rem solid black !important;
 }
 
 // Tags
@@ -84,6 +103,8 @@ a {
 .ltag {
   font-size: $ltag !important;
 }
+
+
 
 @media screen and (max-width: 780px) {
   // Define Font for heading
