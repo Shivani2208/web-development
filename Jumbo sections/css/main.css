@@ -676,7 +676,7 @@ body {
 .inpstyle {
   background-color: white;
   border: none;
-  width: 50%;
+  width: 50% !important;
 }
 
 .inpstyle:hover {
@@ -751,6 +751,11 @@ body {
 .btnbc2 {
   background-color: #0E49B5;
   border: none;
+}
+
+.lbtn:hover {
+  background-color: #333333;
+  color: white;
 }
 
 .fecard {
