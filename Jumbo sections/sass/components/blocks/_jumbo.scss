@@ -1,0 +1,55 @@
+.bagimg{
+    background-image: url(/images/images/ralph-ravi-kayden-2d4lAQAlbDA-unsplash.jpg);
+    height: 90vh;
+    background-size: cover;
+}
+.inpstyle{
+    background-color: white;
+    border: none;
+    width: 50%;
+}
+.inpstyle:hover{
+    border: solid rgb(146, 146, 146) 0.2rem;
+}
+.inpstyle::placeholder{
+    font-weight: 400;
+    color: rgb(158, 158, 158);
+    padding: 1rem;
+}
+.bagimg2{
+    background-image: url(/images/images/mat-napo-vImaF5JhdRE-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.form{
+    background-color: white;
+}
+.pc{
+    font-weight: 500 !important;
+    color: rgb(216, 0, 36);
+}
+.btnbc{
+    background-color: #FF5722;
+    border: none;
+}
+.llink{
+    color: rgb(62, 62, 223);
+    font-weight: 500;
+}
+.llink:hover{
+    color: black;
+}
+.box{
+    background-color: #F1F1F1;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+.bagimg3{
+    background-image: url(/images/images/beautiful-shot-torres-del-paine-national-park-magallanes-region-chile.jpg);
+    height: 90vh;
+    background-size: cover;
+}
+.btnbc2{
+    background-color: #0E49B5;
+    border: none;
+}
