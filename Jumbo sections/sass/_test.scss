@@ -41,22 +41,31 @@
 
 
 
-// .box2_img {
-//   width: 50rem;
-//   height: 40rem;
+// .box4 {
+//   // width: 50%;
+//   height: 50% !important;
 // }
 
 .box2_content {
   color: #fff;
 }
+.img100{
+  // height: 100% !important;
+  height: inherit;
+}
+.h100{
+  height: 100% !important;
+}
 
-
+.row{
+  --bs-gutter-x: 0rem !important;
+}
 .rel2 {
   position: relative;
 }
 
 .abs_rel {
   position: absolute;
-  bottom: 1%;
-  left: 3%;
+  bottom: 2%;
+  left: 5%;
 }

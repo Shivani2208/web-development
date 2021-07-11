@@ -1452,13 +1452,25 @@ img.vert-move {
   color: #fff;
 }
 
+.img100 {
+  height: inherit;
+}
+
+.h100 {
+  height: 100% !important;
+}
+
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+
 .rel2 {
   position: relative;
 }
 
 .abs_rel {
   position: absolute;
-  bottom: 1%;
-  left: 3%;
+  bottom: 2%;
+  left: 5%;
 }
 /*# sourceMappingURL=main.css.map */
