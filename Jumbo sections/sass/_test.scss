@@ -38,3 +38,30 @@
 // .p_test {
 //   font-size: $p_test !important;
 // }
+
+.box2 {
+  background-color: blue;
+}
+
+.box2_img {
+  width: 50rem;
+  height: 40rem;
+}
+
+.box2_content {
+  color: #fff;
+}
+
+.box2_content p h1 {
+  padding: 0 !important;
+}
+
+.rel2 {
+  position: relative;
+}
+
+.abs_rel {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
