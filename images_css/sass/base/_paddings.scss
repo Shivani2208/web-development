@@ -1,0 +1,142 @@
+// Vertical Paddings
+.p1 {
+  padding: $p1_y 0rem !important;
+}
+.p2 {
+  padding: $p2_y 0rem !important;
+}
+.p3 {
+  padding: $p3_y 0rem !important;
+}
+.p4 {
+  padding: $p4_y 0rem !important;
+}
+.p5 {
+  padding: $p5_y 0rem !important;
+}
+.p6 {
+  padding: $p6_y 0rem !important;
+}
+
+// Horizontal Paddings
+.px1 {
+  padding: 0rem $p1_x !important;
+}
+.px2 {
+  padding: 0rem $p2_x !important;
+}
+.px3 {
+  padding: 0rem $p3_x !important;
+}
+.px4 {
+  padding: 0rem $p4_x !important;
+}
+.px5 {
+  padding: 0rem $p5_x !important;
+}
+.px6 {
+  padding: 0rem $p6_x !important;
+}
+
+// Padding All
+.pxy1 {
+  padding: $pxy1;
+}
+.pxy2 {
+  padding: $pxy2;
+}
+.pxy3 {
+  padding: $pxy3;
+}
+.pxy4 {
+  padding: $pxy4;
+}
+.pxy5 {
+  padding: $pxy5;
+}
+.pxy6 {
+  padding: $pxy6;
+}
+
+// Padding Left
+// .pl1 {
+//   padding-left: 0.6rem !important;
+// }
+// .pl2 {
+//   padding-left: 1rem !important;
+// }
+// .pl3 {
+//   padding-left: 1.5rem !important;
+// }
+// .pl4 {
+//   padding-left: 2rem !important;
+// }
+// .pl5 {
+//   padding-left: 2.5rem !important;
+// }
+// .pl6 {
+//   padding-left: 3rem !important;
+// }
+
+@media screen and (max-width: 780px) {
+  // Vertical Paddings Mobile
+
+  .p1 {
+    padding: calc(#{$p1_y} / #{$padding_mob_ratio}) 0rem !important;
+  }
+  .p2 {
+    padding: calc(#{$p2_y} / #{$padding_mob_ratio}) 0rem !important;
+  }
+  .p3 {
+    padding: calc(#{$p3_y} / #{$padding_mob_ratio}) 0rem !important;
+  }
+  .p4 {
+    padding: calc(#{$p4_y} / #{$padding_mob_ratio}) !important;
+  }
+  .p5 {
+    padding: calc(#{$p5_y} / #{$padding_mob_ratio}) 0rem !important;
+  }
+  .p6 {
+    padding: calc(#{$p6_y} / #{$padding_mob_ratio}) 0rem !important;
+  }
+
+  // Horizontal Paddings
+  .px1 {
+    padding: 0rem calc(#{$p1_x} / #{$padding_mob_ratio}) !important;
+  }
+  .px2 {
+    padding: 0rem calc(#{$p2_x} / #{$padding_mob_ratio}) !important;
+  }
+  .px3 {
+    padding: 0rem calc(#{$p3_x} / #{$padding_mob_ratio}) !important;
+  }
+  .px4 {
+    padding: 0rem calc(#{$p4_x} / #{$padding_mob_ratio}) !important;
+  }
+  .px5 {
+    padding: 0rem calc(#{$p5_x} / #{$padding_mob_ratio}) !important;
+  }
+  .px6 {
+    padding: 0rem calc(#{$p6_x} / #{$padding_mob_ratio}) !important;
+  }
+
+  // Padding All
+  .pxy1 {
+    padding: calc(#{$pxy1} / #{$padding_mob_ratio});
+  }
+  .pxy2 {
+    padding: calc(#{$pxy2} / #{$padding_mob_ratio});
+  }
+  .pxy3 {
+    padding: calc(#{$pxy3} / #{$padding_mob_ratio});
+  }
+  .pxy4 {
+    padding: calc(#{$pxy4} / #{$padding_mob_ratio});
+  }
+  .pxy5 {
+    padding: calc(#{$pxy5} / #{$padding_mob_ratio});
+  }
+  .pxy6 {
+    padding: calc(#{$pxy6} / #{$padding_mob_ratio});
+  }
+}
