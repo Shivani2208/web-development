@@ -1392,15 +1392,20 @@ img.vert-move {
 .box5:hover .box5img {
   -webkit-transition: 2s ease;
   transition: 2s ease;
-  width: 120%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .box5img {
   width: 100%;
 }
 
-.ptop {
-  padding-top: 1.5rem;
+.bclr {
+  background-color: #e7e7e7;
+}
+
+.w120 {
+  width: 120%;
 }
 
 @media screen and (max-width: 990px) {
@@ -1415,6 +1420,9 @@ img.vert-move {
   .column-6 {
     width: 100%;
     max-width: 100%;
+  }
+  .w120 {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

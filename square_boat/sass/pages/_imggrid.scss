@@ -24,13 +24,16 @@
 }
 .box5:hover .box5img{
   transition: 2s ease;
-  width: 120%;
+  transform: scale(1.1);
 }
 .box5img{
   width: 100%;
 }
-.ptop{
-  padding-top: 1.5rem;
+.bclr{
+  background-color: rgb(231, 231, 231);
+}
+.w120{
+  width: 120%;
 }
 
 @media screen and (max-width: 990px) {
@@ -42,8 +45,12 @@
     width: 100%;
     max-width: 100%;
   }
+
   .column-6{
     width: 100%;
     max-width: 100%;
+  }
+  .w120{
+    width: 100%;
   }
 }
