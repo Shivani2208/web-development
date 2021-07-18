@@ -1,0 +1,21 @@
+.wordblock {
+  // head Hero
+  &_tag {
+  }
+
+  &__heading {
+    font-weight: 800 !important;
+    line-height: 5.5rem;
+    font-size: 5rem;
+
+    &--subhead {
+      font-size: 4rem;
+      font-weight: 700 !important;
+      line-height: 5.5rem;
+    }
+  }
+
+  &__para {
+    line-height: 2.5rem;
+  }
+}
