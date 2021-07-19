@@ -29,7 +29,7 @@ h6 {
 }
 
 h1 {
-  font-size: 3.6rem !important;
+  font-size: 3rem !important;
 }
 
 h2 {
@@ -91,7 +91,7 @@ a {
 
 @media screen and (max-width: 780px) {
   h1 {
-    font-size: calc(3.6rem / 1.4) !important;
+    font-size: calc(3rem / 1.4) !important;
   }
   h2 {
     font-size: calc(20px / 1.4) !important;
@@ -1269,7 +1269,7 @@ img.vert-move {
 
 @media screen and (max-width: 780px) {
   h1 {
-    font-size: calc(3.6rem / 1.4) !important;
+    font-size: calc(3rem / 1.4) !important;
   }
   h2 {
     font-size: calc(20px / 1.4) !important;
@@ -1414,5 +1414,64 @@ a:active {
   padding: 1rem 2rem;
   font-weight: 600;
   font-size: 1.7rem;
+  border-radius: 0.5rem;
+}
+
+.simg {
+  width: 5%;
+  height: 5%;
+}
+
+.inst {
+  padding: 0.5rem;
+  border: 0.1rem solid rgba(218, 215, 215, 0.842);
+  border-radius: 0.5rem;
+  background-color: #f3f4f4;
+}
+
+.signupbtn {
+  border: none;
+  padding: 1rem 2rem !important;
+  border-radius: 0.5rem;
+  background-color: #ea4c89;
+  color: white;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.signupbtn:hover {
+  background-color: palevioletred;
+}
+
+.inst:hover {
+  border: 0.2rem solid #f5d3de;
+  background-color: #fff;
+}
+
+.inst:focus {
+  border: 0.2rem solid #f5d3de !important;
+}
+
+::-webkit-input-placeholder {
+  padding: 1rem;
+}
+
+:-ms-input-placeholder {
+  padding: 1rem;
+}
+
+::-ms-input-placeholder {
+  padding: 1rem;
+}
+
+::placeholder {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 950px) {
+  .simg {
+    width: 7%;
+    height: 7%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
