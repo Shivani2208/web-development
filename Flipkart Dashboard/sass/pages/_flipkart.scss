@@ -32,22 +32,24 @@ a:active{
     color: #2874f0;
 }
 .instyl{
-    padding: 1rem;
+    padding: 0.8rem;
     border: 0.1rem solid #e0e0e0;
     // background-color: #fafafa;
     border-radius: 3px;
-    width: 95%;
     color: #242424;
     outline: none;
 }
 .instyl:active{
     border: 0.1rem solid #2874f0;
 }
+.instyl:focus{
+    border: 0.1rem solid #2874f0;
+}
 .savebtn{
     border: none;
     background-color: #2874f0;
     color: #fff;
-    padding: 1rem 2rem;
+    padding: 0.7rem 2rem;
     font-weight: 600;
     font-size: 1.7rem;
     border-radius: 0.5rem;

@@ -29,6 +29,9 @@
   .inst:focus {
     border: 0.2rem solid rgb(245, 211, 222) !important;
   }
+  .inst:active{
+    border: 0.2rem solid rgb(245, 211, 222) !important;
+  }
   ::placeholder{
     padding: 1rem;
   }
