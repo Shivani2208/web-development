@@ -1386,7 +1386,7 @@ img.vert-move {
 }
 
 .box5 {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .box5:hover .box5img {
@@ -1396,8 +1396,21 @@ img.vert-move {
           transform: scale(1.1);
 }
 
+.box5:hover .box6img {
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .box5img {
   width: 100%;
+  height: 80vh !important;
+}
+
+.box6img {
+  width: 100%;
+  height: 40vh !important;
 }
 
 .bclr {
