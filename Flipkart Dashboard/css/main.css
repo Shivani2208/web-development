@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px !important;
+  font-size: 2.4rem !important;
 }
 
 h3 {
@@ -41,16 +41,16 @@ h3 {
 }
 
 h4 {
-  font-size: 2.441rem !important;
+  font-size: 1.8rem !important;
 }
 
 h5 {
-  font-size: 1.953rem !important;
+  font-size: 1.453rem !important;
 }
 
 p,
 li {
-  font-size: 14px !important;
+  font-size: 1.4rem !important;
 }
 
 h1,
@@ -78,15 +78,15 @@ a {
 }
 
 .stag {
-  font-size: 12px !important;
+  font-size: 1.2rem !important;
 }
 
 .mtag {
-  font-size: 1.6rem !important;
+  font-size: 1.4rem !important;
 }
 
 .ltag {
-  font-size: 16px !important;
+  font-size: 1.6rem !important;
 }
 
 @media screen and (max-width: 780px) {
@@ -94,16 +94,16 @@ a {
     font-size: calc(3rem / 1.4) !important;
   }
   h2 {
-    font-size: calc(20px / 1.4) !important;
+    font-size: calc(2.4rem / 1.4) !important;
   }
   h3 {
     font-size: calc(16px / 1.4) !important;
   }
   h4 {
-    font-size: calc(2.441rem / 1.4) !important;
+    font-size: calc(1.8rem / 1.4) !important;
   }
   h5 {
-    font-size: calc(1.953rem / 1.4) !important;
+    font-size: calc(1.453rem / 1.4) !important;
   }
 }
 
@@ -1272,16 +1272,16 @@ img.vert-move {
     font-size: calc(3rem / 1.4) !important;
   }
   h2 {
-    font-size: calc(20px / 1.4) !important;
+    font-size: calc(2.4rem / 1.4) !important;
   }
   h3 {
     font-size: calc(16px / 1.4) !important;
   }
   h4 {
-    font-size: calc(2.441rem / 1.4) !important;
+    font-size: calc(1.8rem / 1.4) !important;
   }
   h5 {
-    font-size: calc(1.953rem / 1.4) !important;
+    font-size: calc(1.453rem / 1.4) !important;
   }
   .mhide {
     display: none;
@@ -1361,9 +1361,13 @@ img.vert-move {
 }
 
 .myord {
-  color: #878787;
+  color: #181818;
   font-size: 16px;
   font-weight: 600;
+}
+
+.pa {
+  padding: 2rem 0.8rem;
 }
 
 .edit {
