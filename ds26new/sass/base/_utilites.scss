@@ -1,0 +1,132 @@
+// Check Bod
+.bod {
+  border: 1px solid red;
+}
+
+// a
+.nodeco {
+  text-decoration: none;
+}
+
+.nodeco:hover {
+  text-decoration: none;
+}
+
+// li
+.lstn {
+  list-style-type: none;
+}
+
+// Spacer
+.spacer {
+  padding: $spacer;
+}
+
+// Images
+.img100 {
+  width: 100%;
+}
+
+// Displays
+.dn {
+  display: none;
+}
+
+// Text Left
+.txtl {
+  text-align: left;
+}
+.txtr {
+  text-align: right;
+}
+.txtc {
+  text-align: center;
+}
+
+// Content Width
+.cw {
+  width: max-content;
+}
+
+// Flex Box
+.flex {
+  display: flex !important;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.flex_w {
+  flex-wrap: wrap;
+}
+
+//  Justify Content center
+
+.jcc {
+  justify-content: center;
+}
+.jce {
+  justify-content: flex-end;
+}
+.jcsa {
+  justify-content: space-around;
+}
+.jcse {
+  justify-content: space-evenly;
+}
+.jcsb {
+  justify-content: space-between;
+}
+.aic {
+  align-items: center;
+}
+
+// Position Fixed
+.fxd {
+  position: fixed;
+  z-index: 1000;
+}
+.fxd_sticky {
+  position: sticky;
+  z-index: 1000;
+}
+
+.rl {
+  position: relative;
+}
+
+.abc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid {
+  display: grid;
+}
+
+@media screen and (max-width: 780px) {
+  .mobtxtl {
+    text-align: left;
+  }
+  .mobtxtr {
+    text-align: right;
+  }
+  .mobtxtr {
+    text-align: center;
+  }
+}
+
+// .item {
+//   width: 25%;
+//   padding: 0.8rem;
+// }
+
+// .slick-next:before,
+// .slick-prev:before {
+//   color: orange !important;
+//   font-size: 3rem !important;
+//   // background-color: red;
+// }

@@ -1,0 +1,13 @@
+table {
+  margin-bottom: $mb !important;
+}
+
+th,
+td {
+  // border: 1px solid #eee;
+  padding: 1rem;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(243, 246, 253);
+}
