@@ -1,0 +1,52 @@
+// Import All Sass Files
+// @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Oxygen:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500;600;700&family=Oxygen:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+// Variables
+@import "variables/variables";
+//Mixins
+@import "mixins/mixins";
+
+//typography
+
+@import "typography/icons";
+@import "typography/colors";
+@import "typography/bolds";
+@import "typography/typography";
+
+// Base
+@import "base/base";
+@import "base/utilites";
+@import "base/paddings";
+@import "base/margins";
+@import "base/toggle";
+@import "base/shadows";
+@import "base/container";
+
+// components
+@import "components/inputs";
+@import "components/buttons";
+
+// Section
+@import "components/sections/section";
+
+// Blocks
+@import "components/blocks/header";
+@import "components/blocks/hero";
+@import "components/blocks/wordblock";
+@import "components/blocks/footer";
+
+@import "components/cards";
+@import "components/icons";
+@import "components/nav";
+@import "components/table";
+
+// @import "components/fecard";
+// @import "components/vdcard";
+
+// Pages
+@import "pages/auth";
+@import "pages/home";
+
+// Test
+@import "test";

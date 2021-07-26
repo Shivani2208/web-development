@@ -1,0 +1,17 @@
+.site_header {
+  background-color: #fff;
+}
+
+.logo {
+  width: 15rem !important;
+}
+
+.logotxt {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 780px) {
+  .logo {
+    width: 10rem !important;
+  }
+}
