@@ -616,15 +616,15 @@ button,
 .sbtn,
 .mbtn,
 .lbtn {
-  background-color: #f7f7f7;
-  color: #0e0d0d;
+  background-color: #181717;
+  color: #fafafa;
 }
 
 button:hover,
 .sbtn:hover,
 .mbtn:hover,
 .lbtn:hover {
-  background-color: #aaabac;
+  background-color: #d0d0d1;
   color: #0f0f0f;
 }
 
@@ -714,7 +714,7 @@ button:hover,
 }
 
 .logo {
-  width: 15rem !important;
+  width: 10rem !important;
 }
 
 .logotxt {
