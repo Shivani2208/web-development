@@ -1,0 +1,71 @@
+// .testcard {
+//   width: 25rem;
+//   height: 30rem;
+//   background-color: rgb(192, 178, 178);
+//   position: relative;
+//   border-radius: 0.3rem;
+//   overflow: hidden;
+//   transition: transform 0.3s ease;
+// }
+
+// .testimg {
+//   width: 100%;
+//   height: 100%;
+// }
+
+// .testcontent {
+//   width: max-content; // Very Very Important Property
+//   background-color: rgb(247, 247, 247);
+//   color: rgb(41, 41, 41);
+//   padding: 2rem;
+//   position: absolute;
+//   top: 73%;
+//   left: 2%;
+//   transform: translateX(-140%);
+//   transition: transform 0.3s ease;
+// }
+
+// .testcard:hover {
+//   .testcontent {
+//     transform: translateX(8%);
+//   }
+// }
+
+// .testsize {
+//   font-size: $h1_test;
+// }
+
+// .p_test {
+//   font-size: $p_test !important;
+// }
+
+.boxtest3 {
+  width: max-content;
+}
+
+.boxtest3 hr {
+  width: 30%;
+  height: 2px;
+  background-color: rgb(252, 23, 23);
+}
+
+.testsec {
+  background-image: url(../images/images/photo-1521377134373-49b242b5fd0e.jpg);
+  height: 50vh !important;
+  @include imgback;
+}
+
+.bgimg {
+  background-image: url(../images/images/photo-1565279427445-10c13a1d1f82.jpg);
+  height: 60vh !important;
+  @include imgback;
+}
+
+.testclick{
+  color: rgb(29, 27, 27) !important;
+  font-size: 2.5rem !important;
+}
+
+.nmar{
+  margin-top: -10rem;
+}

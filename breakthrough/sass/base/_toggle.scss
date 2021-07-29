@@ -1,0 +1,17 @@
+.dhide {
+  display: none !important;
+}
+
+.dblock {
+  display: block !important;
+}
+
+@media screen and (max-width: 780px) {
+  .mhide {
+    display: none !important;
+  }
+
+  .mblock {
+    display: block !important;
+  }
+}

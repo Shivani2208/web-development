@@ -1,0 +1,59 @@
+.background{
+    background-color: #fff;
+    padding: 3rem;
+    // font-size: 4rem !important;
+}
+.nmar2{
+  margin-top: -16rem;
+}
+
+
+/* Container holding the image and the text */
+.rl {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 4% !important;
+  right: 4% !important;
+  background-color: rgba(14, 13, 13, 0.801);
+  color: white;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .nmar2{
+      margin-top: -18rem !important;
+    }
+  }
+  @media screen and (max-width: 980px) {
+    .nmar2{
+      margin-top: -17rem !important;
+    }
+  }
+@media screen and (max-width: 780px) {
+    .lbtn {
+      padding: 1.5rem;
+      border: 0.8rem solid #fff;
+      border-radius: 4px;
+      font-size: 2rem;
+      transition: all 0.2s ease;
+    }
+    .nmar{
+      margin-top: -9rem !important;
+    }
+    .nmar2{
+      margin-top: -15rem !important;
+    }
+  }
+  @media screen and (max-width: 540px) {
+    .nmar2{
+      margin-top: -17rem !important;
+    }
+    h3{
+      font-size:2.5rem;
+    }
+  }
+  
