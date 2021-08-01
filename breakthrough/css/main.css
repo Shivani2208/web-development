@@ -92,11 +92,11 @@ h2 {
 }
 
 h3 {
-  font-size: 3.7rem;
+  font-size: 3.4rem;
 }
 
 h4 {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
 }
 
 h5 {
@@ -108,7 +108,7 @@ li,
 blockquote,
 td,
 th {
-  font-size: 1.58rem !important;
+  font-size: 1.8rem !important;
   font-weight: 400;
 }
 
@@ -181,10 +181,10 @@ img {
     font-size: calc(4.08rem / 1.4);
   }
   h3 {
-    font-size: calc(3.7rem / 1.4);
+    font-size: calc(3.4rem / 1.4);
   }
   h4 {
-    font-size: calc(2.2rem / 1.4);
+    font-size: calc(2.8rem / 1.4);
   }
   h5 {
     font-size: calc(1.92rem / 1.4);
@@ -865,7 +865,6 @@ a {
 
 .nav_links:hover {
   color: #5c095c !important;
-  border-bottom: 0.2rem solid #19134d;
 }
 
 .nav_hb {
@@ -1075,11 +1074,11 @@ tr:nth-child(odd) {
 
 .background {
   background-color: #fff;
-  padding: 3rem;
+  padding: 3rem 0rem !important;
 }
 
 .nmar2 {
-  margin-top: -16rem;
+  margin-top: -10rem;
 }
 
 /* Container holding the image and the text */
@@ -1094,18 +1093,29 @@ tr:nth-child(odd) {
   right: 4% !important;
   background-color: rgba(14, 13, 13, 0.801);
   color: white;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 @media screen and (max-width: 1200px) {
   .nmar2 {
     margin-top: -18rem !important;
   }
+  .text-block {
+    bottom: 4% !important;
+    right: 4% !important;
+  }
 }
 
 @media screen and (max-width: 980px) {
   .nmar2 {
     margin-top: -17rem !important;
+  }
+  .mobcen {
+    text-align: center;
+  }
+  .text-block {
+    bottom: 29% !important;
+    right: 4% !important;
   }
 }
 
@@ -1118,20 +1128,31 @@ tr:nth-child(odd) {
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
   }
+  .mobcen {
+    text-align: center;
+  }
   .nmar {
     margin-top: -9rem !important;
   }
   .nmar2 {
     margin-top: -15rem !important;
   }
+  .text-block {
+    bottom: 4% !important;
+    right: 4% !important;
+  }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 500px) {
   .nmar2 {
     margin-top: -17rem !important;
   }
   h3 {
     font-size: 2.5rem;
+  }
+  .text-block {
+    bottom: 24% !important;
+    right: 4% !important;
   }
 }
 
@@ -1157,7 +1178,7 @@ tr:nth-child(odd) {
 
 .bgimg {
   background-image: url(../images/images/photo-1565279427445-10c13a1d1f82.jpg);
-  height: 60vh !important;
+  height: 50vh !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

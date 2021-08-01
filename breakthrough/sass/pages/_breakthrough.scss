@@ -1,10 +1,10 @@
 .background{
     background-color: #fff;
-    padding: 3rem;
+    padding: 3rem 0rem !important;
     // font-size: 4rem !important;
 }
 .nmar2{
-  margin-top: -16rem;
+  margin-top: -10rem;
 }
 
 
@@ -20,17 +20,28 @@
   right: 4% !important;
   background-color: rgba(14, 13, 13, 0.801);
   color: white;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 @media screen and (max-width: 1200px) {
     .nmar2{
       margin-top: -18rem !important;
     }
+    .text-block {
+    bottom: 4% !important;
+    right: 4% !important; 
+  }
   }
   @media screen and (max-width: 980px) {
     .nmar2{
       margin-top: -17rem !important;
+    }
+    .mobcen{
+      text-align: center;
+    }
+    .text-block {
+      bottom: 29% !important;
+      right: 4% !important; 
     }
   }
 @media screen and (max-width: 780px) {
@@ -41,19 +52,30 @@
       font-size: 2rem;
       transition: all 0.2s ease;
     }
+    .mobcen{
+      text-align: center;
+    }
     .nmar{
       margin-top: -9rem !important;
     }
     .nmar2{
       margin-top: -15rem !important;
     }
+    .text-block {
+      bottom: 4% !important;
+      right: 4% !important; 
+    }
   }
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 500px) {
     .nmar2{
       margin-top: -17rem !important;
     }
     h3{
       font-size:2.5rem;
+    }
+    .text-block {
+      bottom: 24% !important;
+      right: 4% !important; 
     }
   }
   
