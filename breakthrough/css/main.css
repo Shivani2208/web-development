@@ -80,7 +80,7 @@ h6 {
 }
 
 .h1_jumbo {
-  font-size: 6.6rem;
+  font-size: 6.4rem;
 }
 
 h1 {
@@ -108,7 +108,7 @@ li,
 blockquote,
 td,
 th {
-  font-size: 1.8rem !important;
+  font-size: 1.7rem !important;
   font-weight: 400;
 }
 
@@ -172,7 +172,7 @@ img {
 
 @media screen and (max-width: 780px) {
   .h1_jumbo {
-    font-size: calc(6.6rem / 1.4);
+    font-size: calc(6.4rem / 1.4);
   }
   h1 {
     font-size: calc(5.98rem / 1.4);
@@ -1100,10 +1100,6 @@ tr:nth-child(odd) {
   .nmar2 {
     margin-top: -18rem !important;
   }
-  .text-block {
-    bottom: 4% !important;
-    right: 4% !important;
-  }
 }
 
 @media screen and (max-width: 980px) {
@@ -1112,10 +1108,6 @@ tr:nth-child(odd) {
   }
   .mobcen {
     text-align: center;
-  }
-  .text-block {
-    bottom: 29% !important;
-    right: 4% !important;
   }
 }
 
@@ -1137,10 +1129,6 @@ tr:nth-child(odd) {
   .nmar2 {
     margin-top: -15rem !important;
   }
-  .text-block {
-    bottom: 4% !important;
-    right: 4% !important;
-  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1149,10 +1137,6 @@ tr:nth-child(odd) {
   }
   h3 {
     font-size: 2.5rem;
-  }
-  .text-block {
-    bottom: 24% !important;
-    right: 4% !important;
   }
 }
 
