@@ -1,0 +1,148 @@
+// Padding and margin All Zero
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+ul,
+li {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+// Define Font for heading
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading_font !important;
+  line-height: $heading_lineheight !important;
+  font-weight: 400 !important;
+}
+
+// Define Font for heading
+.h1_jumbo {
+  font-size: $h1_jumbo;
+}
+h1 {
+  font-size: $h1;
+}
+h2 {
+  font-size: $h2;
+}
+h3 {
+  font-size: $h3;
+}
+h4 {
+  font-size: $h4;
+}
+h5 {
+  font-size: $h5;
+}
+
+// Define Font Size Heading
+p,
+li,
+blockquote,
+td,
+th {
+  font-size: $p !important;
+  font-weight: 400;
+}
+
+// Typography Margin Bottom
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+img,
+hr,
+blockquote,
+button,
+table,
+input {
+  margin-bottom: $mb !important;
+}
+
+// Ul Li's Styling
+ul,
+ol {
+  padding-left: 2.5rem !important;
+}
+
+li {
+  padding-left: 0.6rem !important;
+}
+
+// Anchor Design
+a {
+  // text-decoration: none;
+  color: $a_clr;
+}
+
+a:hover {
+  color: $a_clr_hover !important;
+}
+
+// Blockquote
+blockquote {
+  background-color: $blq_clr;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+// img
+img {
+  margin-bottom: 2.3rem !important;
+  width: 100%;
+}
+
+//
+
+// Tags
+.stag {
+  font-size: $stag !important;
+}
+
+.mtag {
+  font-size: $mtag !important;
+}
+
+.ltag {
+  font-size: $ltag !important;
+}
+
+@media screen and (max-width: 780px) {
+  // Define Font for heading
+
+  .h1_jumbo {
+    font-size: calc(#{$h1_jumbo} / #{$font_mob_ratio});
+  }
+  h1 {
+    font-size: calc(#{$h1} / #{$font_mob_ratio});
+  }
+  h2 {
+    font-size: calc(#{$h2} / #{$font_mob_ratio});
+  }
+  h3 {
+    font-size: calc(#{$h3} / #{$font_mob_ratio});
+  }
+  h4 {
+    font-size: calc(#{$h4} / #{$font_mob_ratio});
+  }
+  h5 {
+    font-size: calc(#{$h5} / #{$font_mob_ratio});
+  }
+}
+
+@media screen and (max-width: 780px) {
+}

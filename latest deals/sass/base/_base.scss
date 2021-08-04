@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $html_font_size;
+}
+
+body {
+  font-size: 1.5rem !important;
+  font-family: $body_font;
+  line-height: $base_lineheight;
+  color: $font_clr;
+}
+
+.main {
+  min-height: 40vh !important;
+}

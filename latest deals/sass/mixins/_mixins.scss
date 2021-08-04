@@ -1,0 +1,41 @@
+// Justify-content: space-between
+@mixin flex-jc-sb-ai-cen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Justify-content: space-evenly
+@mixin flex-jc-se-ai-cen {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+// To direct Flex direction column
+@mixin flex-dir-column {
+  flex-direction: column;
+}
+
+// Background Img
+@mixin imgback {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+// ClearFix
+@mixin clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// Center the element
+
+@mixin center-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

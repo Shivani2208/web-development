@@ -1,0 +1,92 @@
+// Header Nav Component
+// *** New Part
+
+.header_nav {
+  background-color: #5C33F6;
+  position: fixed;
+  color: #fff !important;
+  width: 100%;
+  padding: 1rem;
+  transition: all 0.3s ease;
+
+  a {
+    color: #fff !important;
+  }
+}
+
+.nav_active {
+  padding: 1rem !important;
+  position: fixed;
+  color: #fff !important;
+  background-color: $font_clr;
+  // box-shadow: 0px 20px 8px 0 rgba(182, 182, 182, 0.13);
+  transition: all 0.3s ease;
+}
+
+.nav,
+a {
+  cursor: pointer;
+  // color: #fff;
+}
+.nav_links {
+  padding: 0.5rem 1.5rem !important;
+  color: #fff !important;
+  //   border-left: 1px solid #eee;
+  transition: all 0.1s ease;
+}
+
+.nav_links:hover {
+  color: rgb(230, 224, 224) !important;
+}
+
+.nav_hb {
+  font-size: 2.8rem;
+  cursor: pointer;
+}
+
+.nav_dropdown {
+  background-color: rgb(248, 247, 247);
+  border-radius: 2px;
+  width: 25rem;
+}
+
+.nav_dropdown_links {
+  padding: 1.1rem 2.3rem !important;
+}
+
+// Dropdowns
+.homedd {
+  position: relative;
+}
+
+#homedd {
+  display: none;
+  position: absolute;
+  top: 5rem;
+}
+
+.homedd:hover {
+  #homedd {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hide{
+    display:none;
+  }
+  .disblock {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .thide{
+    display:none;
+  }
+  .disblock {
+    display: block !important;
+  }
+}
+
+// *** New Part
