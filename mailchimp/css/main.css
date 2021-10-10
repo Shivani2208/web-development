@@ -638,7 +638,7 @@ button:hover,
 
 .sbtn:hover {
   border: #0c0808 0.1rem solid;
-  background-color: #f5f5f5;
+  background-color: #eee;
 }
 
 .mbtn {
@@ -771,7 +771,7 @@ button:hover,
 .vdcard {
   margin: 2rem;
   min-height: 25rem;
-  background-color: #eee;
+  background-color: #def2f3;
   padding: 2.8rem;
 }
 
@@ -862,10 +862,12 @@ a {
 }
 
 .nav_links {
-  padding: 1.3rem 2.3rem !important;
+  padding: 0.8rem 2.3rem !important;
   color: #161616 !important;
   -webkit-transition: all 0.1s ease;
   transition: all 0.1s ease;
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
 }
 
 .nav_links:hover {
@@ -899,6 +901,15 @@ a {
 
 .homedd:hover #homedd {
   display: block;
+}
+
+@media screen and (max-width: 992px) {
+  .hide {
+    display: none !important;
+  }
+  .show {
+    display: block !important;
+  }
 }
 
 table {
@@ -1073,11 +1084,21 @@ tr:nth-child(odd) {
 }
 
 .bckclr {
-  background-color: #eee;
+  background-color: #def2f3;
 }
 
 .bbot {
   border-bottom: 0.1rem solid black;
+}
+
+.navimg {
+  height: 8rem;
+}
+
+@media screen and (max-width: 780px) {
+  .navimg {
+    height: 6rem;
+  }
 }
 
 .boxtest3 {

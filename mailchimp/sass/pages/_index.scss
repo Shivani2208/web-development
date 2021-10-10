@@ -1,6 +1,14 @@
 .bckclr{
-    background-color: #eee;
+    background-color: #def2f3;
 }
 .bbot{
     border-bottom: 0.1rem solid black;
+}
+.navimg{
+    height: 8rem;
+}
+@media screen and (max-width: 780px) {
+    .navimg{
+        height: 6rem;
+    }
 }
