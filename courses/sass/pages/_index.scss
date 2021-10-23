@@ -1,0 +1,28 @@
+.navimg{
+    height: 6rem;
+}
+.bclr{
+    background-color: #FEF1E6;
+}
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.bora1{
+    border-radius: 50% !important;
+}
+
+
+@media screen and (max-width: 992px) {
+    .hide{
+        display: none !important;
+    }
+    .block{
+        display: block !important;
+    }
+}
